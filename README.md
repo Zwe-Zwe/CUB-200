@@ -14,7 +14,8 @@ Every decision is made on a held-out validation split; the test set is evaluated
 | | Link |
 |---|---|
 | Trained model (Hugging Face Hub) | https://huggingface.co/zwe-zwe/CUB-200 |
-| Web demo | *(Streamlit Community Cloud link, to be added)* |
+| Web demo (Streamlit) | https://cub200-birds.streamlit.app/ |
+| Source code | https://github.com/Zwe-Zwe/CUB-200 |
 | Video walkthrough | *(YouTube link, to be added)* |
 
 ## Results

@@ -27,6 +27,8 @@ Learning assignment (Swinburne University of Technology).
 | **Average per-class accuracy** | **89.94 %** |
 | Test Top-5 accuracy | 98.01 % |
 
+**Live demo:** https://cub200-birds.streamlit.app/ · **Code:** https://github.com/Zwe-Zwe/CUB-200
+
 ## How it was trained
 
 The recipe was found with a step-by-step tuning ladder, where every decision was made on a stratified 20 % validation

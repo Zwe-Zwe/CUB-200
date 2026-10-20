@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE / tool settings
+.idea/
+.vscode/
+.claude/
+
+# Dataset (not redistributed; see README "Setup" for where to put it)
+Train/
+Test/
+Train.zip
+Test.zip
+train.txt
+test.txt
+
+# Assignment brief and reference material (course material)
+*.pdf
+
+# Model weights: too large for GitHub (100 MB limit). Recreate with the commands in the README;
+# the final model is also on the Hugging Face Hub: https://huggingface.co/zwe-zwe/CUB-200
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Run artefacts that are not evidence (lock files of interrupted runs, smoke tests)
+outputs/runs/*/train.lock
+outputs/runs/*__smoke/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Empty uv project template stub (not used)
+src/

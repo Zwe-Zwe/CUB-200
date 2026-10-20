@@ -1,0 +1,15 @@
+# Config B: fine-grained fine-tune.
+# Progressive resizing: 15 epochs at 224 px, then continue from the best weights for 5 epochs at 448 px
+# (fine details such as beak shape and wing bars survive at the higher resolution), plus CutMix.
+name: B_finegrained
+description: Progressive resizing 224 -> 448 px + CutMix
+cutmix_prob: 0.5          # CutMix on half of the training batches
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 6
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 15, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}
+  # lower LR at 448 px: the model is already well trained, only adapt it to the higher resolution
+  - {img_size: 448, batch_size: 16, epochs: 5, lr_backbone: 2.0e-5, lr_head: 2.0e-4, warmup_epochs: 0}

@@ -1,0 +1,22 @@
+# Track 1, ladder step S6: S5 + stronger data augmentation (used with model scratch_vgg_gap).
+# ONE change vs scratch_wd: augment "basic" -> "strong" (see birdcls/data.py):
+#   basic : RandomResizedCrop(60-100% area), flip, rotation +-15, colour jitter 0.2, random erasing 0.25
+#   strong: RandomResizedCrop(25-100% area), flip, TrivialAugmentWide (one random op at random strength),
+#           random erasing 0.25
+# Why: S5 still memorises the training set (clean train 99.9% vs val 48.0%). Weight decay could not stop this
+# because BatchNorm makes conv weights scale-invariant (EXP-09), so the regulariser has to act on the DATA.
+# Augmentation was the biggest anti-overfitting win so far (S2: +11 pp), and "basic" is mild.
+name: scratch_strongaug
+description: S5 + strong augmentation (crop 25-100%, flip, TrivialAugmentWide, random erasing)
+optimizer: sgd
+momentum: 0.9
+lr_schedule: cosine
+augment: strong           # <- the only change vs scratch_wd (was: basic)
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 5.0e-4
+dropout: 0.0
+drop_path: 0.0            # unused by scratch models
+patience: 20
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 150, lr_backbone: 0.01, lr_head: 0.01, warmup_epochs: 2}

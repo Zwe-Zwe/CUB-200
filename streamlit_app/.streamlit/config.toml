@@ -1,0 +1,5 @@
+[server]
+maxUploadSize = 20          # MB
+
+[browser]
+gatherUsageStats = false

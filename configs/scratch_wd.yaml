@@ -1,0 +1,22 @@
+# Track 1, ladder step S5: S4 + weight decay (used with model scratch_vgg_gap).
+# ONE change vs scratch_cosine: weight_decay 0 -> 5e-4 (L2 penalty applied by SGD to all parameters).
+# Why: S4 fits the training set almost perfectly (clean train 99.8% vs val 46.9%, gap 53 pp) with no explicit
+# regularisation. Weight decay shrinks every weight a little at each update (w <- w - lr * (grad + wd * w)),
+# so the network can only keep large weights that keep reducing the loss on many images; this favours
+# smoother functions that memorise less. 5e-4 is the standard value for SGD-trained CNNs (e.g. VGG, ResNet).
+# With BatchNorm, weight decay also keeps the effective learning rate of the conv layers from shrinking as
+# their weights grow, which tends to help late in training.
+name: scratch_wd
+description: S4 + weight decay 5e-4 (warm-up + cosine LR, up to 150 epochs, early stopping patience 20)
+optimizer: sgd
+momentum: 0.9
+lr_schedule: cosine
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 5.0e-4      # <- the only change vs scratch_cosine (was: 0.0)
+dropout: 0.0
+drop_path: 0.0            # unused by scratch models
+patience: 20
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 150, lr_backbone: 0.01, lr_head: 0.01, warmup_epochs: 2}

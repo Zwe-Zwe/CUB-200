@@ -1,0 +1,17 @@
+# Training / evaluation (python -m birdcls.train | evaluate | export)
+torch>=2.4
+torchvision>=0.19
+timm>=1.0          # ConvNeXt weights pretrained on ImageNet-22k
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+pyyaml
+# Web app (hf_space/app.py)
+gradio
+streamlit         # streamlit_app/app.py
+# ONNX export + check for the static web app (python -m birdcls.export --onnx)
+onnx
+onnxscript
+onnxruntime

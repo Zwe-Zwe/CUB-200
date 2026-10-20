@@ -1,0 +1,19 @@
+# Track 1, ladder step S0: the naive from-scratch baseline (used with model scratch_vgg).
+# Deliberately no tricks: no data augmentation, no regularisation, plain SGD with a constant learning
+# rate, and no early stopping, so the training curves show the full extent of overfitting.
+# S1 reuses this config with model scratch_vgg_bn (adds BatchNorm), so exactly one thing changes.
+name: scratch_base
+description: From-scratch baseline - no augmentation, no regularisation, SGD at constant LR
+optimizer: sgd
+momentum: 0.9
+lr_schedule: constant
+augment: none
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.0
+dropout: 0.0
+drop_path: 0.0            # unused by scratch models
+patience: 1000            # early stopping off: train all epochs
+phases:
+  # one learning rate for the whole network (nothing is pretrained)
+  - {img_size: 224, batch_size: 32, epochs: 50, lr_backbone: 0.01, lr_head: 0.01, warmup_epochs: 0}

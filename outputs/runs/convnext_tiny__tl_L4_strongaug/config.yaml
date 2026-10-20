@@ -1,0 +1,23 @@
+model: convnext_tiny
+full_train: false
+name: tl_L4_strongaug
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 20
+  lr_backbone: 0.0001
+  lr_head: 0.001
+  warmup_epochs: 1
+description: 'L4 strong augmentation: L3 + crop 25-100%, TrivialAugmentWide, flip,
+  random erasing'
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 6
+optimizer: adamw
+momentum: 0.9
+lr_schedule: cosine
+augment: strong
+freeze_backbone: false

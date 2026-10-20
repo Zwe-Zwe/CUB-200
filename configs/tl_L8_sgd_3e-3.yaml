@@ -1,0 +1,23 @@
+# Track 2 ladder, step L8 (ResNet-50 branch): architecture-specific tuning, SGD + momentum, LR sweep point 3e-3.
+# Change vs tl_L6_hires_strongaug: the OPTIMISER package (linked settings):
+#   AdamW -> SGD with momentum 0.9 (the classic ResNet / BatchNorm fine-tuning optimiser),
+#   weight decay 0.05 (decoupled, AdamW) -> 1e-4 (coupled L2, standard for SGD),
+#   LRs: backbone 0.003 / head 0.03 (head 10x backbone, as before), 448 px phase 5x lower (as before).
+# Sweep over the backbone LR (1e-3, 3e-3, 1e-2) because SGD's best LR is not known in advance; the sweep point with
+# the best VALIDATION accuracy is compared with L6. Everything else (strong aug, regularisation, schedule) as L6.
+name: tl_L8_sgd_3e-3
+description: "L8 ResNet-50: L6 with SGD momentum 0.9, wd 1e-4, backbone LR 0.003 / head 0.03"
+freeze_backbone: false
+momentum: 0.9
+optimizer: sgd             # <- was adamw
+lr_schedule: cosine
+augment: strong
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 1.0e-4      # <- was 0.05 (AdamW, decoupled); 1e-4 is the standard coupled L2 for SGD
+dropout: 0.3
+drop_path: 0.1
+patience: 10
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 30, lr_backbone: 3.0e-03, lr_head: 3.0e-02, warmup_epochs: 1}
+  - {img_size: 448, batch_size: 16, epochs: 10, lr_backbone: 6.0e-04, lr_head: 6.0e-03, warmup_epochs: 0}

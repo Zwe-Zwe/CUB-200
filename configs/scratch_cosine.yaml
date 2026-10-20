@@ -1,0 +1,24 @@
+# Track 1, ladder step S4: S3 + cosine learning-rate schedule + longer training with early stopping
+# (used with model scratch_vgg_gap). Changes vs scratch_aug (S3), all about the training schedule:
+#   1. lr_schedule constant -> cosine, with a 2-epoch linear warm-up (same peak LR 0.01)
+#   2. epochs 50 -> 150 (the cosine curve stretches over all 150 epochs)
+#   3. early stopping on: stop after 20 epochs without a new best validation accuracy
+# Why: S3 was under-trained (val loss still falling, clean train acc 59% at epoch 50) and very noisy
+# (val acc swung 21.6-30.2% over its last 10 epochs) because a constant LR keeps the weights bouncing.
+# Decaying the LR towards zero lets SGD settle into a minimum; the warm-up avoids large, destabilising
+# updates while BatchNorm statistics and the random weights settle. Patience 20 (not e.g. 6) because
+# epoch-to-epoch val noise was about +-4 pp, so a short patience would stop on a random dip.
+name: scratch_cosine
+description: S3 + 2-epoch warm-up and cosine LR decay over up to 150 epochs, early stopping (patience 20)
+optimizer: sgd
+momentum: 0.9
+lr_schedule: cosine       # <- was: constant
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.0
+dropout: 0.0
+drop_path: 0.0            # unused by scratch models
+patience: 20              # <- was: 1000 (off)
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 150, lr_backbone: 0.01, lr_head: 0.01, warmup_epochs: 2}   # <- was: 50 epochs, no warm-up

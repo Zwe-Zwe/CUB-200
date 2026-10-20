@@ -1,0 +1,21 @@
+# Track 2 ladder, step L4: strong data augmentation.
+# ONE change vs tl_L3_regularise: augment "basic" -> "strong" (birdcls/data.py), the preset used in Track 1 S6:
+#   RandomResizedCrop 25-100% of the image (was 60-100%), flip, TrivialAugmentWide (one random op at random strength,
+#   replacing rotation + colour jitter), random erasing 0.25.
+# Why: after L3 both models still fit the training set almost perfectly (clean train ~99.9%, gaps 18.5 / 13.0 pp), and the
+# L3 regularisers mainly changed confidence, not memorisation. Augmentation acts on the data itself: the network never sees
+# the same image twice, which is the classic defence against memorising ~19 images per class.
+name: tl_L4_strongaug
+description: "L4 strong augmentation: L3 + crop 25-100%, TrivialAugmentWide, flip, random erasing"
+freeze_backbone: false
+optimizer: adamw
+lr_schedule: cosine
+augment: strong           # <- the only change vs tl_L3_regularise (was: basic)
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 6
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 20, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}

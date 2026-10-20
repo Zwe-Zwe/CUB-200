@@ -1,0 +1,5 @@
+run,eval_size,best_epoch,train_acc,val_top1,gap,test_top1,test_avg_per_class,train_minutes
+A_standard,224,17,0.999,0.8685,0.1304,0.8613,0.8571,6.9346
+A_standard + TTA,224,17,0.999,0.8665,0.1325,0.8688,0.8668,6.9346
+B_finegrained,448,19,0.9984,0.8716,0.1268,0.8663,0.8639,10.1748
+B_finegrained + TTA,448,19,0.9984,0.8644,0.1341,0.8704,0.8686,10.1748

@@ -1,0 +1,30 @@
+model: convnext_tiny
+full_train: false
+name: tl_L8_llrd_065
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 30
+  lr_backbone: 0.0001
+  lr_head: 0.001
+  warmup_epochs: 1
+- img_size: 448
+  batch_size: 16
+  epochs: 10
+  lr_backbone: 2.0e-05
+  lr_head: 0.0002
+  warmup_epochs: 0
+description: 'L8 ConvNeXt-Tiny: L6 with layer-wise LR decay 0.65 (stem 0.18x ... top
+  stage 1x backbone LR)'
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 10
+optimizer: adamw
+momentum: 0.9
+lr_schedule: cosine
+augment: basic
+freeze_backbone: false
+layer_decay: 0.65

@@ -1,0 +1,8 @@
+# Streamlit app (streamlit_app/app.py); CPU-only inference
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+timm
+streamlit
+pillow
+huggingface_hub

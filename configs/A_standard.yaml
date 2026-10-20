@@ -1,0 +1,11 @@
+# Config A: standard fine-tune at 224 px.
+name: A_standard
+description: Standard fine-tune, 224 px throughout, no CutMix
+cutmix_prob: 0.0          # CutMix off
+label_smoothing: 0.1
+weight_decay: 0.05        # AdamW decoupled weight decay
+dropout: 0.3              # before the new 200-class layer
+drop_path: 0.1            # stochastic depth
+patience: 6               # early stopping (epochs without val improvement)
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 20, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}

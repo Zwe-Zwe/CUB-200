@@ -1,0 +1,24 @@
+19:52:38  run convnext_base.fb_in22k__A_standard
+19:52:38  NVIDIA GeForce RTX 4060 Laptop GPU: 7.59 GiB free of 7.70 GiB
+19:52:39  model convnext_base.fb_in22k: 87.8 M parameters
+19:52:39  phase 1/1: 224px, 20 epochs, batch 32 (= 1 x 32), 120 updates/epoch, lr backbone 0.0001 / head 0.001
+19:53:18  phase 1 (224px) epoch 01/20 | train loss 4.216 acc 0.267 | val loss 1.297 acc 0.7195  *best*
+19:53:55  phase 1 (224px) epoch 02/20 | train loss 1.571 acc 0.799 | val loss 0.497 acc 0.8892  *best*
+19:54:33  phase 1 (224px) epoch 03/20 | train loss 1.212 acc 0.921 | val loss 0.440 acc 0.8965  *best*
+19:55:11  phase 1 (224px) epoch 04/20 | train loss 1.120 acc 0.948 | val loss 0.394 acc 0.9141  *best*
+19:55:48  phase 1 (224px) epoch 05/20 | train loss 1.073 acc 0.965 | val loss 0.404 acc 0.9089
+19:56:26  phase 1 (224px) epoch 06/20 | train loss 1.049 acc 0.968 | val loss 0.414 acc 0.9213  *best*
+19:57:03  phase 1 (224px) epoch 07/20 | train loss 1.023 acc 0.977 | val loss 0.403 acc 0.9255  *best*
+19:57:41  phase 1 (224px) epoch 08/20 | train loss 1.011 acc 0.981 | val loss 0.398 acc 0.9255
+19:58:18  phase 1 (224px) epoch 09/20 | train loss 0.995 acc 0.983 | val loss 0.397 acc 0.9265  *best*
+19:58:56  phase 1 (224px) epoch 10/20 | train loss 0.970 acc 0.989 | val loss 0.410 acc 0.9234
+19:59:33  phase 1 (224px) epoch 11/20 | train loss 0.972 acc 0.988 | val loss 0.403 acc 0.9327  *best*
+20:00:11  phase 1 (224px) epoch 12/20 | train loss 0.975 acc 0.984 | val loss 0.386 acc 0.9265
+20:00:49  phase 1 (224px) epoch 13/20 | train loss 0.954 acc 0.988 | val loss 0.392 acc 0.9296
+20:01:26  phase 1 (224px) epoch 14/20 | train loss 0.950 acc 0.989 | val loss 0.404 acc 0.9327
+20:02:03  phase 1 (224px) epoch 15/20 | train loss 0.952 acc 0.989 | val loss 0.395 acc 0.9286
+20:02:41  phase 1 (224px) epoch 16/20 | train loss 0.952 acc 0.989 | val loss 0.409 acc 0.9306
+20:03:18  phase 1 (224px) epoch 17/20 | train loss 0.937 acc 0.992 | val loss 0.410 acc 0.9286
+20:03:18  early stopping in phase 1
+20:03:18  best val acc 0.9327 at epoch 11 (224px) | 10.7 min
+20:03:18  saved to /mnt/hyhyData/Swinburne/Applied Machine Learning/Assignment/outputs/runs/convnext_base.fb_in22k__A_standard

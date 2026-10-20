@@ -1,0 +1,21 @@
+# Track 2 ladder, step L2: learning-rate policy for fine-tuning.
+# Change vs tl_L1_finetune: the LR POLICY (one step, three linked settings):
+#   - discriminative LRs: backbone 1e-4 (10x smaller), new head 1e-3 (unchanged)
+#   - 1-epoch linear warm-up, then cosine decay to 0 (was: constant, no warm-up)
+# Why: L1 showed catastrophic forgetting in the FIRST epoch (val 7.7% / 0.5% after epoch 1): the random head's large
+# gradients hit the pretrained backbone at full LR. A small backbone LR changes the pretrained features gently while the
+# head still learns fast, and the warm-up keeps the first updates small until the head is no longer random.
+name: tl_L2_discriminative
+description: "L2 LR policy: backbone 1e-4 / head 1e-3 + 1-epoch warm-up + cosine (AdamW, 20 epochs)"
+freeze_backbone: false
+optimizer: adamw
+lr_schedule: cosine       # <- was: constant
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.01
+dropout: 0.0
+drop_path: 0.0
+patience: 6
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 20, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}   # <- was: 1e-3 / 1e-3, no warm-up

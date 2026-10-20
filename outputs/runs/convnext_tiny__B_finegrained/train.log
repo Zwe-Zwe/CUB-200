@@ -1,0 +1,1 @@
+Trained with the original notebook (notebook_convnext_tiny_run.ipynb in archive/), same training logic as birdcls.engine.fit. See history.json for per-epoch values.

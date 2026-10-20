@@ -1,0 +1,25 @@
+13:26:37  run convnext_tiny__tl_L2_discriminative
+13:26:37  NVIDIA GeForce RTX 4060 Laptop GPU: 7.50 GiB free of 7.70 GiB
+13:26:37  model convnext_tiny: 28.0 M parameters
+13:26:37  input normalisation: mean (0.485, 0.456, 0.406), std (0.229, 0.224, 0.225) | optimizer adamw, LR schedule cosine, augmentation basic
+13:26:37  trainable parameters: 27.974 M
+13:26:37  phase 1/1: 224px, 20 epochs, batch 32 (= 1 x 32), 120 updates/epoch, lr backbone 0.0001 / head 0.001
+13:26:53  phase 1 (224px) epoch 01/20 | train loss 4.393 acc 0.159 | val loss 2.370 acc 0.5031  *best*
+13:27:08  phase 1 (224px) epoch 02/20 | train loss 1.382 acc 0.692 | val loss 0.918 acc 0.7692  *best*
+13:27:23  phase 1 (224px) epoch 03/20 | train loss 0.500 acc 0.892 | val loss 0.739 acc 0.8126  *best*
+13:27:37  phase 1 (224px) epoch 04/20 | train loss 0.260 acc 0.952 | val loss 0.628 acc 0.8313  *best*
+13:27:52  phase 1 (224px) epoch 05/20 | train loss 0.193 acc 0.965 | val loss 0.607 acc 0.8447  *best*
+13:28:07  phase 1 (224px) epoch 06/20 | train loss 0.129 acc 0.977 | val loss 0.567 acc 0.8437
+13:28:21  phase 1 (224px) epoch 07/20 | train loss 0.115 acc 0.977 | val loss 0.547 acc 0.8602  *best*
+13:28:36  phase 1 (224px) epoch 08/20 | train loss 0.111 acc 0.975 | val loss 0.555 acc 0.8458
+13:28:50  phase 1 (224px) epoch 09/20 | train loss 0.108 acc 0.978 | val loss 0.528 acc 0.8613  *best*
+13:29:05  phase 1 (224px) epoch 10/20 | train loss 0.084 acc 0.983 | val loss 0.508 acc 0.8665  *best*
+13:29:20  phase 1 (224px) epoch 11/20 | train loss 0.086 acc 0.981 | val loss 0.535 acc 0.8602
+13:29:35  phase 1 (224px) epoch 12/20 | train loss 0.072 acc 0.986 | val loss 0.538 acc 0.8571
+13:29:50  phase 1 (224px) epoch 13/20 | train loss 0.073 acc 0.983 | val loss 0.521 acc 0.8634
+13:30:04  phase 1 (224px) epoch 14/20 | train loss 0.062 acc 0.985 | val loss 0.508 acc 0.8571
+13:30:19  phase 1 (224px) epoch 15/20 | train loss 0.053 acc 0.988 | val loss 0.506 acc 0.8634
+13:30:34  phase 1 (224px) epoch 16/20 | train loss 0.065 acc 0.986 | val loss 0.514 acc 0.8561
+13:30:34  early stopping in phase 1
+13:30:34  best val acc 0.8665 at epoch 10 (224px) | 3.9 min
+13:30:34  saved to /mnt/hyhyData/Swinburne/Applied Machine Learning/Assignment/outputs/runs/convnext_tiny__tl_L2_discriminative

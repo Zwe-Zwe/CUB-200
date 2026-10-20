@@ -1,0 +1,1205 @@
+file,true,pred,confidence,correct
+0000.jpg,Black footed Albatross,Black footed Albatross,0.96692145,True
+0001.jpg,Black footed Albatross,Black footed Albatross,0.7138763,True
+0002.jpg,Black footed Albatross,Black footed Albatross,0.92191166,True
+0003.jpg,Black footed Albatross,Black footed Albatross,0.8913912,True
+0004.jpg,Black footed Albatross,Black footed Albatross,0.14854653,True
+0005.jpg,Black footed Albatross,Black footed Albatross,0.7207823,True
+0006.jpg,Black footed Albatross,Black footed Albatross,0.775271,True
+0007.jpg,Laysan Albatross,Laysan Albatross,0.7255847,True
+0008.jpg,Laysan Albatross,Laysan Albatross,0.9592098,True
+0009.jpg,Laysan Albatross,Laysan Albatross,0.5862227,True
+0010.jpg,Laysan Albatross,Laysan Albatross,0.89955825,True
+0011.jpg,Laysan Albatross,Laysan Albatross,0.76556116,True
+0012.jpg,Sooty Albatross,Sooty Albatross,0.73048145,True
+0013.jpg,Sooty Albatross,Sooty Albatross,0.63352793,True
+0014.jpg,Sooty Albatross,Sooty Albatross,0.81297904,True
+0015.jpg,Sooty Albatross,Sooty Albatross,0.5604851,True
+0016.jpg,Sooty Albatross,Sooty Albatross,0.19821277,True
+0017.jpg,Groove billed Ani,Groove billed Ani,0.8827648,True
+0018.jpg,Groove billed Ani,Groove billed Ani,0.8204559,True
+0019.jpg,Groove billed Ani,Groove billed Ani,0.81592786,True
+0020.jpg,Groove billed Ani,Groove billed Ani,0.8732409,True
+0021.jpg,Groove billed Ani,Groove billed Ani,0.6680823,True
+0022.jpg,Groove billed Ani,Groove billed Ani,0.9602831,True
+0023.jpg,Groove billed Ani,Groove billed Ani,0.49538174,True
+0024.jpg,Crested Auklet,Crested Auklet,0.86607915,True
+0025.jpg,Crested Auklet,Crested Auklet,0.79742396,True
+0026.jpg,Crested Auklet,Crested Auklet,0.6424536,True
+0027.jpg,Crested Auklet,Crested Auklet,0.9141577,True
+0028.jpg,Crested Auklet,Crested Auklet,0.70930946,True
+0029.jpg,Least Auklet,Least Auklet,0.84677064,True
+0030.jpg,Least Auklet,Least Auklet,0.8702778,True
+0031.jpg,Least Auklet,Least Auklet,0.8422689,True
+0032.jpg,Least Auklet,Least Auklet,0.8625925,True
+0033.jpg,Least Auklet,Least Auklet,0.8978101,True
+0034.jpg,Least Auklet,Least Auklet,0.95069396,True
+0035.jpg,Parakeet Auklet,Parakeet Auklet,0.54584235,True
+0036.jpg,Parakeet Auklet,Parakeet Auklet,0.8125974,True
+0037.jpg,Parakeet Auklet,Parakeet Auklet,0.42598304,True
+0038.jpg,Parakeet Auklet,Parakeet Auklet,0.50993913,True
+0039.jpg,Parakeet Auklet,Parakeet Auklet,0.83602536,True
+0040.jpg,Parakeet Auklet,Parakeet Auklet,0.4780882,True
+0041.jpg,Parakeet Auklet,Parakeet Auklet,0.8679831,True
+0042.jpg,Rhinoceros Auklet,Rhinoceros Auklet,0.88640285,True
+0043.jpg,Rhinoceros Auklet,Rhinoceros Auklet,0.9694081,True
+0044.jpg,Rhinoceros Auklet,Rhinoceros Auklet,0.80267715,True
+0045.jpg,Rhinoceros Auklet,Rhinoceros Auklet,0.9463928,True
+0046.jpg,Rhinoceros Auklet,Rhinoceros Auklet,0.94827825,True
+0047.jpg,Rhinoceros Auklet,Rhinoceros Auklet,0.51190335,True
+0048.jpg,Brewer Blackbird,Bronzed Cowbird,0.24101578,False
+0049.jpg,Brewer Blackbird,Brewer Blackbird,0.6417166,True
+0050.jpg,Brewer Blackbird,Brewer Blackbird,0.3409152,True
+0051.jpg,Brewer Blackbird,Brewer Blackbird,0.93907964,True
+0052.jpg,Brewer Blackbird,Brewer Blackbird,0.8313677,True
+0053.jpg,Red winged Blackbird,Brandt Cormorant,0.13655649,False
+0054.jpg,Red winged Blackbird,Red winged Blackbird,0.8557381,True
+0055.jpg,Red winged Blackbird,Red winged Blackbird,0.5131525,True
+0056.jpg,Red winged Blackbird,Red winged Blackbird,0.7923623,True
+0057.jpg,Red winged Blackbird,Red winged Blackbird,0.8507479,True
+0058.jpg,Rusty Blackbird,Rusty Blackbird,0.82353544,True
+0059.jpg,Rusty Blackbird,Rusty Blackbird,0.81713235,True
+0060.jpg,Rusty Blackbird,Rusty Blackbird,0.36279353,True
+0061.jpg,Rusty Blackbird,Winter Wren,0.054612957,False
+0062.jpg,Rusty Blackbird,Rusty Blackbird,0.19042088,True
+0063.jpg,Yellow headed Blackbird,Yellow headed Blackbird,0.9107785,True
+0064.jpg,Yellow headed Blackbird,Yellow headed Blackbird,0.75120974,True
+0065.jpg,Yellow headed Blackbird,Yellow headed Blackbird,0.8997732,True
+0066.jpg,Yellow headed Blackbird,Yellow headed Blackbird,0.9273394,True
+0067.jpg,Yellow headed Blackbird,Yellow headed Blackbird,0.87872595,True
+0068.jpg,Yellow headed Blackbird,Yellow headed Blackbird,0.701476,True
+0069.jpg,Bobolink,Bobolink,0.89175946,True
+0070.jpg,Bobolink,Bobolink,0.57173115,True
+0071.jpg,Bobolink,Bobolink,0.55894345,True
+0072.jpg,Bobolink,Bobolink,0.6800959,True
+0073.jpg,Bobolink,Bobolink,0.37388077,True
+0074.jpg,Indigo Bunting,Indigo Bunting,0.3713998,True
+0075.jpg,Indigo Bunting,Indigo Bunting,0.879557,True
+0076.jpg,Indigo Bunting,Indigo Bunting,0.8154734,True
+0077.jpg,Indigo Bunting,Indigo Bunting,0.9072156,True
+0078.jpg,Indigo Bunting,Indigo Bunting,0.7792846,True
+0079.jpg,Indigo Bunting,Indigo Bunting,0.92113197,True
+0080.jpg,Indigo Bunting,Indigo Bunting,0.73361933,True
+0081.jpg,Lazuli Bunting,Lazuli Bunting,0.8988978,True
+0082.jpg,Lazuli Bunting,Lazuli Bunting,0.91871506,True
+0083.jpg,Lazuli Bunting,Lazuli Bunting,0.46715292,True
+0084.jpg,Lazuli Bunting,Lazuli Bunting,0.79249585,True
+0085.jpg,Lazuli Bunting,Indigo Bunting,0.27812526,False
+0086.jpg,Lazuli Bunting,Bay breasted Warbler,0.18497942,False
+0087.jpg,Painted Bunting,Painted Bunting,0.7154521,True
+0088.jpg,Painted Bunting,Painted Bunting,0.9227186,True
+0089.jpg,Painted Bunting,Painted Bunting,0.9272809,True
+0090.jpg,Painted Bunting,Painted Bunting,0.92403483,True
+0091.jpg,Painted Bunting,Brown Creeper,0.16204312,False
+0092.jpg,Painted Bunting,Painted Bunting,0.47859085,True
+0093.jpg,Cardinal,Cardinal,0.5050554,True
+0094.jpg,Cardinal,Cardinal,0.5372345,True
+0095.jpg,Cardinal,Cardinal,0.9682636,True
+0096.jpg,Cardinal,Cardinal,0.7692922,True
+0097.jpg,Cardinal,Cardinal,0.6191517,True
+0098.jpg,Spotted Catbird,Spotted Catbird,0.46792367,True
+0099.jpg,Spotted Catbird,Spotted Catbird,0.8171958,True
+0100.jpg,Spotted Catbird,Spotted Catbird,0.9548964,True
+0101.jpg,Spotted Catbird,Spotted Catbird,0.8942791,True
+0102.jpg,Gray Catbird,Gray Catbird,0.96923053,True
+0103.jpg,Gray Catbird,Gray Catbird,0.7880124,True
+0104.jpg,Gray Catbird,Gray Catbird,0.87736887,True
+0105.jpg,Gray Catbird,Gray Catbird,0.92362094,True
+0106.jpg,Gray Catbird,Gray Catbird,0.9278084,True
+0107.jpg,Gray Catbird,Gray Catbird,0.25981334,True
+0108.jpg,Gray Catbird,Gray Catbird,0.85122406,True
+0109.jpg,Yellow breasted Chat,Yellow breasted Chat,0.8465984,True
+0110.jpg,Yellow breasted Chat,Yellow breasted Chat,0.89846253,True
+0111.jpg,Yellow breasted Chat,Yellow breasted Chat,0.9218996,True
+0112.jpg,Yellow breasted Chat,Yellow breasted Chat,0.8514193,True
+0113.jpg,Yellow breasted Chat,Yellow breasted Chat,0.7437469,True
+0114.jpg,Yellow breasted Chat,Yellow breasted Chat,0.81108975,True
+0115.jpg,Yellow breasted Chat,Yellow breasted Chat,0.73000777,True
+0116.jpg,Eastern Towhee,Eastern Towhee,0.9495468,True
+0117.jpg,Eastern Towhee,Eastern Towhee,0.12674809,True
+0118.jpg,Eastern Towhee,Eastern Towhee,0.8303358,True
+0119.jpg,Eastern Towhee,Scissor tailed Flycatcher,0.12674493,False
+0120.jpg,Eastern Towhee,Eastern Towhee,0.92626923,True
+0121.jpg,Eastern Towhee,Eastern Towhee,0.91253567,True
+0122.jpg,Chuck will Widow,Rusty Blackbird,0.07078005,False
+0123.jpg,Chuck will Widow,Chuck will Widow,0.81173676,True
+0124.jpg,Chuck will Widow,Nighthawk,0.087553754,False
+0125.jpg,Chuck will Widow,Whip poor Will,0.2904384,False
+0126.jpg,Brandt Cormorant,White necked Raven,0.19649397,False
+0127.jpg,Brandt Cormorant,Brandt Cormorant,0.13646533,True
+0128.jpg,Brandt Cormorant,Brandt Cormorant,0.28820866,True
+0129.jpg,Brandt Cormorant,Brandt Cormorant,0.71314275,True
+0130.jpg,Brandt Cormorant,Brandt Cormorant,0.47920367,True
+0131.jpg,Red faced Cormorant,Red winged Blackbird,0.15324308,False
+0132.jpg,Red faced Cormorant,Pacific Loon,0.08994104,False
+0133.jpg,Red faced Cormorant,Red faced Cormorant,0.51414067,True
+0134.jpg,Red faced Cormorant,Red faced Cormorant,0.7947251,True
+0135.jpg,Pelagic Cormorant,Pelagic Cormorant,0.86023504,True
+0136.jpg,Pelagic Cormorant,Red faced Cormorant,0.13168244,False
+0137.jpg,Pelagic Cormorant,Red faced Cormorant,0.08912705,False
+0138.jpg,Pelagic Cormorant,Pelagic Cormorant,0.71124524,True
+0139.jpg,Pelagic Cormorant,Pelagic Cormorant,0.9078475,True
+0140.jpg,Pelagic Cormorant,Pelagic Cormorant,0.36657876,True
+0141.jpg,Bronzed Cowbird,Bronzed Cowbird,0.96514887,True
+0142.jpg,Bronzed Cowbird,Bronzed Cowbird,0.55797654,True
+0143.jpg,Bronzed Cowbird,Bronzed Cowbird,0.9104793,True
+0144.jpg,Bronzed Cowbird,Shiny Cowbird,0.055481933,False
+0145.jpg,Bronzed Cowbird,Bronzed Cowbird,0.34513494,True
+0146.jpg,Shiny Cowbird,Shiny Cowbird,0.67514765,True
+0147.jpg,Shiny Cowbird,Shiny Cowbird,0.91329706,True
+0148.jpg,Shiny Cowbird,Shiny Cowbird,0.78764194,True
+0149.jpg,Shiny Cowbird,Shiny Cowbird,0.5616231,True
+0150.jpg,Shiny Cowbird,Shiny Cowbird,0.9347095,True
+0151.jpg,Shiny Cowbird,Shiny Cowbird,0.4924677,True
+0152.jpg,Brown Creeper,Brown Creeper,0.96656936,True
+0153.jpg,Brown Creeper,Brown Creeper,0.94224477,True
+0154.jpg,Brown Creeper,Brown Creeper,0.918199,True
+0155.jpg,Brown Creeper,Brown Creeper,0.88024145,True
+0156.jpg,Brown Creeper,Brown Creeper,0.8617454,True
+0157.jpg,Brown Creeper,Brown Creeper,0.87327665,True
+0158.jpg,Brown Creeper,Brown Creeper,0.42494723,True
+0159.jpg,American Crow,American Crow,0.9339847,True
+0160.jpg,American Crow,Fish Crow,0.42743742,False
+0161.jpg,American Crow,American Crow,0.16127585,True
+0162.jpg,American Crow,American Crow,0.5259417,True
+0163.jpg,American Crow,Brandt Cormorant,0.33800632,False
+0164.jpg,Fish Crow,American Crow,0.16422692,False
+0165.jpg,Fish Crow,Fish Crow,0.78234446,True
+0166.jpg,Fish Crow,American Crow,0.7927785,False
+0167.jpg,Fish Crow,Fish Crow,0.9111356,True
+0168.jpg,Fish Crow,Fish Crow,0.6127723,True
+0169.jpg,Fish Crow,Fish Crow,0.9318347,True
+0170.jpg,Black billed Cuckoo,Black billed Cuckoo,0.8933352,True
+0171.jpg,Black billed Cuckoo,Gray Kingbird,0.12707457,False
+0172.jpg,Black billed Cuckoo,Black billed Cuckoo,0.5468009,True
+0173.jpg,Black billed Cuckoo,Black billed Cuckoo,0.17997082,True
+0174.jpg,Black billed Cuckoo,Black billed Cuckoo,0.12209473,True
+0175.jpg,Black billed Cuckoo,Black billed Cuckoo,0.8107785,True
+0176.jpg,Black billed Cuckoo,Black billed Cuckoo,0.9271064,True
+0177.jpg,Mangrove Cuckoo,Mangrove Cuckoo,0.63215125,True
+0178.jpg,Mangrove Cuckoo,Mangrove Cuckoo,0.5639674,True
+0179.jpg,Mangrove Cuckoo,Mangrove Cuckoo,0.11447309,True
+0180.jpg,Mangrove Cuckoo,Mangrove Cuckoo,0.062534325,True
+0181.jpg,Mangrove Cuckoo,Mangrove Cuckoo,0.959229,True
+0182.jpg,Mangrove Cuckoo,Mangrove Cuckoo,0.39778283,True
+0183.jpg,Yellow billed Cuckoo,Yellow billed Cuckoo,0.7204647,True
+0184.jpg,Yellow billed Cuckoo,Yellow billed Cuckoo,0.16918875,True
+0185.jpg,Yellow billed Cuckoo,Yellow billed Cuckoo,0.97471595,True
+0186.jpg,Yellow billed Cuckoo,Yellow billed Cuckoo,0.9377624,True
+0187.jpg,Yellow billed Cuckoo,Yellow billed Cuckoo,0.8902334,True
+0188.jpg,Yellow billed Cuckoo,Yellow billed Cuckoo,0.9593764,True
+0189.jpg,Yellow billed Cuckoo,Yellow billed Cuckoo,0.35141823,True
+0190.jpg,Gray crowned Rosy Finch,Gray crowned Rosy Finch,0.89772093,True
+0191.jpg,Gray crowned Rosy Finch,Gray crowned Rosy Finch,0.8927397,True
+0192.jpg,Gray crowned Rosy Finch,Gray crowned Rosy Finch,0.55428743,True
+0193.jpg,Gray crowned Rosy Finch,Gray crowned Rosy Finch,0.802502,True
+0194.jpg,Gray crowned Rosy Finch,Gray crowned Rosy Finch,0.5553867,True
+0195.jpg,Purple Finch,Purple Finch,0.84814006,True
+0196.jpg,Purple Finch,Purple Finch,0.938205,True
+0197.jpg,Purple Finch,American Goldfinch,0.856218,False
+0198.jpg,Purple Finch,Purple Finch,0.8680281,True
+0199.jpg,Purple Finch,Purple Finch,0.9414694,True
+0200.jpg,Purple Finch,Purple Finch,0.5621529,True
+0201.jpg,Northern Flicker,Black billed Cuckoo,0.13427405,False
+0202.jpg,Northern Flicker,Northern Flicker,0.8870551,True
+0203.jpg,Northern Flicker,Northern Flicker,0.93975633,True
+0204.jpg,Northern Flicker,Northern Flicker,0.8490706,True
+0205.jpg,Northern Flicker,Northern Flicker,0.83226717,True
+0206.jpg,Northern Flicker,Northern Flicker,0.8642186,True
+0207.jpg,Northern Flicker,Northern Flicker,0.90391386,True
+0208.jpg,Northern Flicker,Northern Flicker,0.9393753,True
+0209.jpg,Acadian Flycatcher,Acadian Flycatcher,0.4839635,True
+0210.jpg,Acadian Flycatcher,Acadian Flycatcher,0.2563926,True
+0211.jpg,Acadian Flycatcher,Acadian Flycatcher,0.89888966,True
+0212.jpg,Acadian Flycatcher,Yellow bellied Flycatcher,0.16467641,False
+0213.jpg,Acadian Flycatcher,Acadian Flycatcher,0.7499073,True
+0214.jpg,Acadian Flycatcher,Acadian Flycatcher,0.8085628,True
+0215.jpg,Acadian Flycatcher,Acadian Flycatcher,0.95085305,True
+0216.jpg,Great Crested Flycatcher,Great Crested Flycatcher,0.41637817,True
+0217.jpg,Great Crested Flycatcher,Great Crested Flycatcher,0.43329775,True
+0218.jpg,Great Crested Flycatcher,Great Crested Flycatcher,0.67826337,True
+0219.jpg,Great Crested Flycatcher,Great Crested Flycatcher,0.886503,True
+0220.jpg,Great Crested Flycatcher,Great Crested Flycatcher,0.9139634,True
+0221.jpg,Great Crested Flycatcher,Great Crested Flycatcher,0.8901946,True
+0222.jpg,Great Crested Flycatcher,Great Crested Flycatcher,0.75720865,True
+0223.jpg,Least Flycatcher,Acadian Flycatcher,0.40487096,False
+0224.jpg,Least Flycatcher,Least Flycatcher,0.83410275,True
+0225.jpg,Least Flycatcher,Least Flycatcher,0.66054785,True
+0226.jpg,Least Flycatcher,Least Flycatcher,0.8117942,True
+0227.jpg,Least Flycatcher,Least Flycatcher,0.4570752,True
+0228.jpg,Least Flycatcher,Least Flycatcher,0.63299763,True
+0229.jpg,Olive sided Flycatcher,Olive sided Flycatcher,0.42355147,True
+0230.jpg,Olive sided Flycatcher,Olive sided Flycatcher,0.8863206,True
+0231.jpg,Olive sided Flycatcher,Olive sided Flycatcher,0.3458187,True
+0232.jpg,Olive sided Flycatcher,Least Flycatcher,0.06957671,False
+0233.jpg,Olive sided Flycatcher,Olive sided Flycatcher,0.2358832,True
+0234.jpg,Olive sided Flycatcher,Olive sided Flycatcher,0.885746,True
+0235.jpg,Scissor tailed Flycatcher,Scissor tailed Flycatcher,0.38454556,True
+0236.jpg,Scissor tailed Flycatcher,Scissor tailed Flycatcher,0.870201,True
+0237.jpg,Scissor tailed Flycatcher,Scissor tailed Flycatcher,0.5500476,True
+0238.jpg,Scissor tailed Flycatcher,Scissor tailed Flycatcher,0.6908432,True
+0239.jpg,Scissor tailed Flycatcher,Scissor tailed Flycatcher,0.46487686,True
+0240.jpg,Scissor tailed Flycatcher,Scissor tailed Flycatcher,0.76241964,True
+0241.jpg,Scissor tailed Flycatcher,Scissor tailed Flycatcher,0.93769485,True
+0242.jpg,Vermilion Flycatcher,Vermilion Flycatcher,0.93629724,True
+0243.jpg,Vermilion Flycatcher,Vermilion Flycatcher,0.9299947,True
+0244.jpg,Vermilion Flycatcher,Vermilion Flycatcher,0.74984384,True
+0245.jpg,Vermilion Flycatcher,Vermilion Flycatcher,0.7683352,True
+0246.jpg,Vermilion Flycatcher,Vermilion Flycatcher,0.88495034,True
+0247.jpg,Yellow bellied Flycatcher,Yellow bellied Flycatcher,0.8962186,True
+0248.jpg,Yellow bellied Flycatcher,Yellow bellied Flycatcher,0.87223774,True
+0249.jpg,Yellow bellied Flycatcher,Yellow bellied Flycatcher,0.587267,True
+0250.jpg,Yellow bellied Flycatcher,Yellow bellied Flycatcher,0.4868438,True
+0251.jpg,Yellow bellied Flycatcher,Myrtle Warbler,0.58237845,False
+0252.jpg,Yellow bellied Flycatcher,Great Crested Flycatcher,0.6318478,False
+0253.jpg,Yellow bellied Flycatcher,Yellow bellied Flycatcher,0.7866474,True
+0254.jpg,Frigatebird,Frigatebird,0.9528423,True
+0255.jpg,Frigatebird,Frigatebird,0.82722336,True
+0256.jpg,Frigatebird,Frigatebird,0.8589042,True
+0257.jpg,Frigatebird,Frigatebird,0.16303453,True
+0258.jpg,Northern Fulmar,Northern Fulmar,0.31861007,True
+0259.jpg,Northern Fulmar,Northern Fulmar,0.8944623,True
+0260.jpg,Northern Fulmar,Northern Fulmar,0.7739327,True
+0261.jpg,Northern Fulmar,Red legged Kittiwake,0.13722555,False
+0262.jpg,Northern Fulmar,Northern Fulmar,0.6988463,True
+0263.jpg,Northern Fulmar,Northern Fulmar,0.80777574,True
+0264.jpg,Gadwall,Gadwall,0.8053111,True
+0265.jpg,Gadwall,Gadwall,0.84037054,True
+0266.jpg,Gadwall,Gadwall,0.48572627,True
+0267.jpg,Gadwall,Gadwall,0.6935935,True
+0268.jpg,Gadwall,Gadwall,0.90238124,True
+0269.jpg,Gadwall,Gadwall,0.6953297,True
+0270.jpg,Gadwall,Gadwall,0.94208705,True
+0271.jpg,American Goldfinch,American Goldfinch,0.62369066,True
+0272.jpg,American Goldfinch,American Goldfinch,0.9663708,True
+0273.jpg,American Goldfinch,Indigo Bunting,0.89772683,False
+0274.jpg,American Goldfinch,American Goldfinch,0.8056845,True
+0275.jpg,American Goldfinch,American Goldfinch,0.94185627,True
+0276.jpg,European Goldfinch,European Goldfinch,0.38317993,True
+0277.jpg,European Goldfinch,European Goldfinch,0.9582785,True
+0278.jpg,European Goldfinch,European Goldfinch,0.4100983,True
+0279.jpg,European Goldfinch,European Goldfinch,0.91521347,True
+0280.jpg,European Goldfinch,European Goldfinch,0.7661536,True
+0281.jpg,European Goldfinch,European Goldfinch,0.67552835,True
+0282.jpg,European Goldfinch,European Goldfinch,0.80062157,True
+0283.jpg,Boat tailed Grackle,Boat tailed Grackle,0.62433356,True
+0284.jpg,Boat tailed Grackle,Boat tailed Grackle,0.4214041,True
+0285.jpg,Boat tailed Grackle,Boat tailed Grackle,0.9095027,True
+0286.jpg,Boat tailed Grackle,Brewer Blackbird,0.55228424,False
+0287.jpg,Boat tailed Grackle,Brewer Blackbird,0.22573906,False
+0288.jpg,Boat tailed Grackle,Brewer Blackbird,0.30994335,False
+0289.jpg,Boat tailed Grackle,Boat tailed Grackle,0.2423654,True
+0290.jpg,Eared Grebe,Eared Grebe,0.82048523,True
+0291.jpg,Eared Grebe,Eared Grebe,0.90526056,True
+0292.jpg,Eared Grebe,Eared Grebe,0.84183145,True
+0293.jpg,Eared Grebe,Eared Grebe,0.7331171,True
+0294.jpg,Eared Grebe,Eared Grebe,0.8652615,True
+0295.jpg,Eared Grebe,Eared Grebe,0.9383011,True
+0296.jpg,Eared Grebe,Eared Grebe,0.9327802,True
+0297.jpg,Horned Grebe,Horned Grebe,0.7013327,True
+0298.jpg,Horned Grebe,Horned Grebe,0.80173135,True
+0299.jpg,Horned Grebe,Horned Grebe,0.96452147,True
+0300.jpg,Horned Grebe,Horned Grebe,0.38096175,True
+0301.jpg,Horned Grebe,Horned Grebe,0.84009504,True
+0302.jpg,Horned Grebe,Horned Grebe,0.9536676,True
+0303.jpg,Pied billed Grebe,Pied billed Grebe,0.7235557,True
+0304.jpg,Pied billed Grebe,Pied billed Grebe,0.9035791,True
+0305.jpg,Pied billed Grebe,Pied billed Grebe,0.8732142,True
+0306.jpg,Pied billed Grebe,Pied billed Grebe,0.10843406,True
+0307.jpg,Pied billed Grebe,Pied billed Grebe,0.9087348,True
+0308.jpg,Pied billed Grebe,Pied billed Grebe,0.9357826,True
+0309.jpg,Western Grebe,Western Grebe,0.9264459,True
+0310.jpg,Western Grebe,Western Grebe,0.8897145,True
+0311.jpg,Western Grebe,Western Grebe,0.933754,True
+0312.jpg,Western Grebe,Western Grebe,0.9382221,True
+0313.jpg,Western Grebe,Western Grebe,0.934082,True
+0314.jpg,Western Grebe,Western Grebe,0.88779217,True
+0315.jpg,Western Grebe,Western Grebe,0.85788476,True
+0316.jpg,Blue Grosbeak,Blue Grosbeak,0.90243423,True
+0317.jpg,Blue Grosbeak,Blue Grosbeak,0.8375915,True
+0318.jpg,Blue Grosbeak,Blue Grosbeak,0.94512177,True
+0319.jpg,Blue Grosbeak,Blue Grosbeak,0.79383445,True
+0320.jpg,Blue Grosbeak,Blue Grosbeak,0.8994715,True
+0321.jpg,Blue Grosbeak,Blue Grosbeak,0.93353754,True
+0322.jpg,Evening Grosbeak,Evening Grosbeak,0.7451747,True
+0323.jpg,Evening Grosbeak,Evening Grosbeak,0.8315387,True
+0324.jpg,Evening Grosbeak,Evening Grosbeak,0.7684803,True
+0325.jpg,Evening Grosbeak,Evening Grosbeak,0.8729254,True
+0326.jpg,Evening Grosbeak,Evening Grosbeak,0.66204596,True
+0327.jpg,Pine Grosbeak,Pine Grosbeak,0.9803057,True
+0328.jpg,Pine Grosbeak,Pine Grosbeak,0.72038895,True
+0329.jpg,Pine Grosbeak,Pine Grosbeak,0.95068365,True
+0330.jpg,Pine Grosbeak,Pine Grosbeak,0.9309208,True
+0331.jpg,Rose breasted Grosbeak,Rose breasted Grosbeak,0.78748846,True
+0332.jpg,Rose breasted Grosbeak,Rose breasted Grosbeak,0.8294237,True
+0333.jpg,Rose breasted Grosbeak,Rose breasted Grosbeak,0.60131586,True
+0334.jpg,Rose breasted Grosbeak,Rose breasted Grosbeak,0.801048,True
+0335.jpg,Pigeon Guillemot,Pigeon Guillemot,0.58515257,True
+0336.jpg,Pigeon Guillemot,Pigeon Guillemot,0.60246986,True
+0337.jpg,Pigeon Guillemot,Pigeon Guillemot,0.9060871,True
+0338.jpg,Pigeon Guillemot,Pigeon Guillemot,0.84204316,True
+0339.jpg,Pigeon Guillemot,Pigeon Guillemot,0.37435627,True
+0340.jpg,California Gull,Ring billed Gull,0.467192,False
+0341.jpg,California Gull,California Gull,0.81565064,True
+0342.jpg,California Gull,California Gull,0.6354672,True
+0343.jpg,California Gull,California Gull,0.80112725,True
+0344.jpg,California Gull,Ring billed Gull,0.45706344,False
+0345.jpg,Glaucous winged Gull,Glaucous winged Gull,0.30219072,True
+0346.jpg,Glaucous winged Gull,Glaucous winged Gull,0.5315212,True
+0347.jpg,Glaucous winged Gull,Glaucous winged Gull,0.87175936,True
+0348.jpg,Glaucous winged Gull,Northern Fulmar,0.38811746,False
+0349.jpg,Glaucous winged Gull,Glaucous winged Gull,0.8562343,True
+0350.jpg,Glaucous winged Gull,Slaty backed Gull,0.1630199,False
+0351.jpg,Glaucous winged Gull,Glaucous winged Gull,0.3604071,True
+0352.jpg,Heermann Gull,Heermann Gull,0.26872402,True
+0353.jpg,Heermann Gull,Heermann Gull,0.08660233,True
+0354.jpg,Heermann Gull,Heermann Gull,0.48434457,True
+0355.jpg,Heermann Gull,Heermann Gull,0.44251096,True
+0356.jpg,Heermann Gull,Heermann Gull,0.58372295,True
+0357.jpg,Herring Gull,Herring Gull,0.61568475,True
+0358.jpg,Herring Gull,Herring Gull,0.23301901,True
+0359.jpg,Herring Gull,Herring Gull,0.5839793,True
+0360.jpg,Herring Gull,Herring Gull,0.87995106,True
+0361.jpg,Herring Gull,Herring Gull,0.5606541,True
+0362.jpg,Ivory Gull,Ivory Gull,0.26172796,True
+0363.jpg,Ivory Gull,Ivory Gull,0.95159537,True
+0364.jpg,Ivory Gull,Ivory Gull,0.8983632,True
+0365.jpg,Ivory Gull,Ivory Gull,0.6517912,True
+0366.jpg,Ring billed Gull,Ring billed Gull,0.36303735,True
+0367.jpg,Ring billed Gull,Ring billed Gull,0.07426488,True
+0368.jpg,Ring billed Gull,Ring billed Gull,0.53352046,True
+0369.jpg,Ring billed Gull,Ring billed Gull,0.34003353,True
+0370.jpg,Ring billed Gull,Herring Gull,0.66878486,False
+0371.jpg,Slaty backed Gull,Slaty backed Gull,0.9525343,True
+0372.jpg,Slaty backed Gull,Slaty backed Gull,0.57874125,True
+0373.jpg,Slaty backed Gull,Slaty backed Gull,0.85743475,True
+0374.jpg,Slaty backed Gull,Slaty backed Gull,0.81308466,True
+0375.jpg,Slaty backed Gull,Western Gull,0.07940774,False
+0376.jpg,Slaty backed Gull,Slaty backed Gull,0.8991938,True
+0377.jpg,Western Gull,Western Gull,0.95861304,True
+0378.jpg,Western Gull,Western Gull,0.4630042,True
+0379.jpg,Western Gull,Brandt Cormorant,0.09437462,False
+0380.jpg,Western Gull,Western Gull,0.59084046,True
+0381.jpg,Western Gull,California Gull,0.60110426,False
+0382.jpg,Western Gull,Western Gull,0.45706254,True
+0383.jpg,Anna Hummingbird,Anna Hummingbird,0.78927445,True
+0384.jpg,Anna Hummingbird,Anna Hummingbird,0.55701536,True
+0385.jpg,Anna Hummingbird,Anna Hummingbird,0.81333154,True
+0386.jpg,Anna Hummingbird,Anna Hummingbird,0.9287302,True
+0387.jpg,Anna Hummingbird,Anna Hummingbird,0.75382984,True
+0388.jpg,Ruby throated Hummingbird,Ruby throated Hummingbird,0.5709648,True
+0389.jpg,Ruby throated Hummingbird,Ruby throated Hummingbird,0.24054493,True
+0390.jpg,Ruby throated Hummingbird,Green Violetear,0.29701006,False
+0391.jpg,Ruby throated Hummingbird,Ruby throated Hummingbird,0.7781737,True
+0392.jpg,Ruby throated Hummingbird,Ruby throated Hummingbird,0.6606339,True
+0393.jpg,Rufous Hummingbird,Rufous Hummingbird,0.4562715,True
+0394.jpg,Rufous Hummingbird,Rufous Hummingbird,0.89147174,True
+0395.jpg,Rufous Hummingbird,Rufous Hummingbird,0.92306066,True
+0396.jpg,Rufous Hummingbird,Rufous Hummingbird,0.91986585,True
+0397.jpg,Rufous Hummingbird,Rufous Hummingbird,0.33595663,True
+0398.jpg,Rufous Hummingbird,Rufous Hummingbird,0.90966356,True
+0399.jpg,Rufous Hummingbird,Rufous Hummingbird,0.91202885,True
+0400.jpg,Green Violetear,Green Violetear,0.9087915,True
+0401.jpg,Green Violetear,Green Violetear,0.76027936,True
+0402.jpg,Green Violetear,Green Violetear,0.8119017,True
+0403.jpg,Green Violetear,Green Violetear,0.8654061,True
+0404.jpg,Green Violetear,Green Violetear,0.86254084,True
+0405.jpg,Green Violetear,Green Violetear,0.83219,True
+0406.jpg,Long tailed Jaeger,Long tailed Jaeger,0.79693276,True
+0407.jpg,Long tailed Jaeger,Long tailed Jaeger,0.42100087,True
+0408.jpg,Long tailed Jaeger,Long tailed Jaeger,0.8603531,True
+0409.jpg,Long tailed Jaeger,Long tailed Jaeger,0.971226,True
+0410.jpg,Long tailed Jaeger,Long tailed Jaeger,0.61172545,True
+0411.jpg,Long tailed Jaeger,Long tailed Jaeger,0.10612782,True
+0412.jpg,Pomarine Jaeger,Pomarine Jaeger,0.9424118,True
+0413.jpg,Pomarine Jaeger,Pomarine Jaeger,0.411646,True
+0414.jpg,Pomarine Jaeger,Pomarine Jaeger,0.75681144,True
+0415.jpg,Pomarine Jaeger,Pomarine Jaeger,0.7806162,True
+0416.jpg,Pomarine Jaeger,Pomarine Jaeger,0.094491385,True
+0417.jpg,Pomarine Jaeger,Pomarine Jaeger,0.94641787,True
+0418.jpg,Blue Jay,Blue Jay,0.95840377,True
+0419.jpg,Blue Jay,Blue Jay,0.7451923,True
+0420.jpg,Blue Jay,Blue Jay,0.903009,True
+0421.jpg,Blue Jay,Blue Jay,0.45171744,True
+0422.jpg,Blue Jay,Blue Jay,0.75644565,True
+0423.jpg,Blue Jay,Blue Jay,0.93554944,True
+0424.jpg,Blue Jay,Blue Jay,0.8702862,True
+0425.jpg,Florida Jay,Florida Jay,0.8828363,True
+0426.jpg,Florida Jay,Florida Jay,0.9291484,True
+0427.jpg,Florida Jay,Florida Jay,0.8181097,True
+0428.jpg,Florida Jay,Florida Jay,0.93364435,True
+0429.jpg,Florida Jay,Florida Jay,0.912432,True
+0430.jpg,Florida Jay,Florida Jay,0.17086686,True
+0431.jpg,Florida Jay,Florida Jay,0.95740724,True
+0432.jpg,Green Jay,Green Jay,0.9216951,True
+0433.jpg,Green Jay,Green Jay,0.9610322,True
+0434.jpg,Green Jay,Green Jay,0.93433374,True
+0435.jpg,Green Jay,Green Jay,0.35741326,True
+0436.jpg,Green Jay,Green Jay,0.39189914,True
+0437.jpg,Green Jay,Green Jay,0.9038315,True
+0438.jpg,Green Jay,Green Jay,0.50858295,True
+0439.jpg,Dark eyed Junco,Dark eyed Junco,0.8363426,True
+0440.jpg,Dark eyed Junco,Dark eyed Junco,0.9159331,True
+0441.jpg,Dark eyed Junco,Dark eyed Junco,0.8628814,True
+0442.jpg,Dark eyed Junco,Dark eyed Junco,0.20488252,True
+0443.jpg,Dark eyed Junco,Dark eyed Junco,0.88425493,True
+0444.jpg,Tropical Kingbird,Tropical Kingbird,0.8345725,True
+0445.jpg,Tropical Kingbird,Tropical Kingbird,0.21101582,True
+0446.jpg,Tropical Kingbird,Tropical Kingbird,0.91951334,True
+0447.jpg,Tropical Kingbird,Tropical Kingbird,0.93823403,True
+0448.jpg,Tropical Kingbird,Tropical Kingbird,0.90419483,True
+0449.jpg,Tropical Kingbird,Tropical Kingbird,0.29133928,True
+0450.jpg,Tropical Kingbird,Tropical Kingbird,0.8932482,True
+0451.jpg,Gray Kingbird,Gray Kingbird,0.59004354,True
+0452.jpg,Gray Kingbird,Gray Kingbird,0.6092082,True
+0453.jpg,Gray Kingbird,Gray Kingbird,0.9185261,True
+0454.jpg,Gray Kingbird,Gray Kingbird,0.8760986,True
+0455.jpg,Gray Kingbird,Gray Kingbird,0.88562715,True
+0456.jpg,Gray Kingbird,Gray Kingbird,0.66715944,True
+0457.jpg,Gray Kingbird,Gray Kingbird,0.74689,True
+0458.jpg,Belted Kingfisher,Belted Kingfisher,0.83731186,True
+0459.jpg,Belted Kingfisher,Blue Jay,0.12358498,False
+0460.jpg,Belted Kingfisher,Ringed Kingfisher,0.4125579,False
+0461.jpg,Belted Kingfisher,Belted Kingfisher,0.8576862,True
+0462.jpg,Belted Kingfisher,Pomarine Jaeger,0.34905896,False
+0463.jpg,Belted Kingfisher,Belted Kingfisher,0.81114316,True
+0464.jpg,Green Kingfisher,Green Kingfisher,0.43477404,True
+0465.jpg,Green Kingfisher,Green Kingfisher,0.94200075,True
+0466.jpg,Green Kingfisher,Green Kingfisher,0.7666591,True
+0467.jpg,Green Kingfisher,Green Kingfisher,0.82579195,True
+0468.jpg,Green Kingfisher,Green Kingfisher,0.83832496,True
+0469.jpg,Pied Kingfisher,Pied Kingfisher,0.76831883,True
+0470.jpg,Pied Kingfisher,Pied Kingfisher,0.88041914,True
+0471.jpg,Pied Kingfisher,Pied Kingfisher,0.9313822,True
+0472.jpg,Pied Kingfisher,Pied Kingfisher,0.78200626,True
+0473.jpg,Pied Kingfisher,Pied Kingfisher,0.9056529,True
+0474.jpg,Pied Kingfisher,Pied Kingfisher,0.46388245,True
+0475.jpg,Pied Kingfisher,Pied Kingfisher,0.86952335,True
+0476.jpg,Ringed Kingfisher,Ringed Kingfisher,0.5493683,True
+0477.jpg,Ringed Kingfisher,Ringed Kingfisher,0.75469565,True
+0478.jpg,Ringed Kingfisher,Ringed Kingfisher,0.9067137,True
+0479.jpg,Ringed Kingfisher,Ringed Kingfisher,0.9134088,True
+0480.jpg,Ringed Kingfisher,Ringed Kingfisher,0.9038203,True
+0481.jpg,Ringed Kingfisher,Ringed Kingfisher,0.4716554,True
+0482.jpg,Ringed Kingfisher,Ringed Kingfisher,0.89411294,True
+0483.jpg,White breasted Kingfisher,White breasted Kingfisher,0.8861823,True
+0484.jpg,White breasted Kingfisher,White breasted Kingfisher,0.9076265,True
+0485.jpg,White breasted Kingfisher,White breasted Kingfisher,0.90133864,True
+0486.jpg,White breasted Kingfisher,White breasted Kingfisher,0.87985563,True
+0487.jpg,White breasted Kingfisher,White breasted Kingfisher,0.9468123,True
+0488.jpg,White breasted Kingfisher,White breasted Kingfisher,0.7874081,True
+0489.jpg,White breasted Kingfisher,White breasted Kingfisher,0.8684591,True
+0490.jpg,Red legged Kittiwake,Red legged Kittiwake,0.9066859,True
+0491.jpg,Red legged Kittiwake,Western Gull,0.27324128,False
+0492.jpg,Red legged Kittiwake,Red legged Kittiwake,0.5887438,True
+0493.jpg,Red legged Kittiwake,Red legged Kittiwake,0.65124553,True
+0494.jpg,Horned Lark,Horned Lark,0.9293006,True
+0495.jpg,Horned Lark,Horned Lark,0.97366786,True
+0496.jpg,Horned Lark,Horned Lark,0.95004797,True
+0497.jpg,Horned Lark,Horned Lark,0.8915945,True
+0498.jpg,Horned Lark,Horned Lark,0.3718169,True
+0499.jpg,Horned Lark,Horned Lark,0.66382617,True
+0500.jpg,Pacific Loon,Pacific Loon,0.93783104,True
+0501.jpg,Pacific Loon,Pacific Loon,0.7014665,True
+0502.jpg,Pacific Loon,Pacific Loon,0.8146969,True
+0503.jpg,Pacific Loon,Pacific Loon,0.60977036,True
+0504.jpg,Pacific Loon,Pacific Loon,0.764342,True
+0505.jpg,Pacific Loon,Pacific Loon,0.9209175,True
+0506.jpg,Pacific Loon,Pacific Loon,0.9363685,True
+0507.jpg,Mallard,Mallard,0.89220965,True
+0508.jpg,Mallard,Mallard,0.9429723,True
+0509.jpg,Mallard,Mallard,0.6978461,True
+0510.jpg,Mallard,Mallard,0.8070727,True
+0511.jpg,Mallard,Mallard,0.8595255,True
+0512.jpg,Western Meadowlark,Western Meadowlark,0.78555655,True
+0513.jpg,Western Meadowlark,Western Meadowlark,0.88436687,True
+0514.jpg,Western Meadowlark,Western Meadowlark,0.80052775,True
+0515.jpg,Western Meadowlark,Western Meadowlark,0.9375805,True
+0516.jpg,Western Meadowlark,Western Meadowlark,0.15985441,True
+0517.jpg,Western Meadowlark,Western Meadowlark,0.41921952,True
+0518.jpg,Hooded Merganser,Hooded Merganser,0.94135505,True
+0519.jpg,Hooded Merganser,Hooded Merganser,0.94971126,True
+0520.jpg,Hooded Merganser,Hooded Merganser,0.92982644,True
+0521.jpg,Hooded Merganser,Hooded Merganser,0.9256,True
+0522.jpg,Hooded Merganser,Hooded Merganser,0.9411672,True
+0523.jpg,Hooded Merganser,Hooded Merganser,0.83869064,True
+0524.jpg,Hooded Merganser,Hooded Merganser,0.89872485,True
+0525.jpg,Red breasted Merganser,Red breasted Merganser,0.84291065,True
+0526.jpg,Red breasted Merganser,Red breasted Merganser,0.9408927,True
+0527.jpg,Red breasted Merganser,Red breasted Merganser,0.95215863,True
+0528.jpg,Red breasted Merganser,Red breasted Merganser,0.95564026,True
+0529.jpg,Red breasted Merganser,Red breasted Merganser,0.8945826,True
+0530.jpg,Red breasted Merganser,Red breasted Merganser,0.92916626,True
+0531.jpg,Mockingbird,Mockingbird,0.3539364,True
+0532.jpg,Mockingbird,Mockingbird,0.8636698,True
+0533.jpg,Mockingbird,Belted Kingfisher,0.1427217,False
+0534.jpg,Mockingbird,Mockingbird,0.70089054,True
+0535.jpg,Mockingbird,Tropical Kingbird,0.1288404,False
+0536.jpg,Mockingbird,Mockingbird,0.45008445,True
+0537.jpg,Nighthawk,Nighthawk,0.3718701,True
+0538.jpg,Nighthawk,Nighthawk,0.90959924,True
+0539.jpg,Nighthawk,Nighthawk,0.54319775,True
+0540.jpg,Nighthawk,Nighthawk,0.72919446,True
+0541.jpg,Nighthawk,Nighthawk,0.89395124,True
+0542.jpg,Nighthawk,Nighthawk,0.9197325,True
+0543.jpg,Clark Nutcracker,Clark Nutcracker,0.83082145,True
+0544.jpg,Clark Nutcracker,Clark Nutcracker,0.9579063,True
+0545.jpg,Clark Nutcracker,Clark Nutcracker,0.55004895,True
+0546.jpg,Clark Nutcracker,Clark Nutcracker,0.09782113,True
+0547.jpg,Clark Nutcracker,Clark Nutcracker,0.514713,True
+0548.jpg,Clark Nutcracker,Clark Nutcracker,0.9277924,True
+0549.jpg,Clark Nutcracker,Clark Nutcracker,0.77296364,True
+0550.jpg,White breasted Nuthatch,White breasted Nuthatch,0.43920416,True
+0551.jpg,White breasted Nuthatch,White breasted Nuthatch,0.5995171,True
+0552.jpg,White breasted Nuthatch,White breasted Nuthatch,0.8990452,True
+0553.jpg,White breasted Nuthatch,White breasted Nuthatch,0.8629836,True
+0554.jpg,White breasted Nuthatch,White breasted Nuthatch,0.9663906,True
+0555.jpg,White breasted Nuthatch,White breasted Nuthatch,0.6890137,True
+0556.jpg,White breasted Nuthatch,White breasted Nuthatch,0.8408964,True
+0557.jpg,Baltimore Oriole,Baltimore Oriole,0.7269998,True
+0558.jpg,Baltimore Oriole,Baltimore Oriole,0.8904928,True
+0559.jpg,Baltimore Oriole,Baltimore Oriole,0.9162012,True
+0560.jpg,Baltimore Oriole,Baltimore Oriole,0.8878704,True
+0561.jpg,Baltimore Oriole,Baltimore Oriole,0.9292471,True
+0562.jpg,Hooded Oriole,Hooded Oriole,0.8475485,True
+0563.jpg,Hooded Oriole,Hooded Oriole,0.898292,True
+0564.jpg,Hooded Oriole,Cape May Warbler,0.14782743,False
+0565.jpg,Hooded Oriole,Hooded Oriole,0.8492556,True
+0566.jpg,Hooded Oriole,Hooded Oriole,0.3044007,True
+0567.jpg,Hooded Oriole,Hooded Oriole,0.8844243,True
+0568.jpg,Hooded Oriole,Hooded Oriole,0.86997575,True
+0569.jpg,Orchard Oriole,Orchard Oriole,0.7820746,True
+0570.jpg,Orchard Oriole,Orchard Oriole,0.93659633,True
+0571.jpg,Orchard Oriole,Orchard Oriole,0.95511144,True
+0572.jpg,Orchard Oriole,Orchard Oriole,0.7408486,True
+0573.jpg,Orchard Oriole,Orchard Oriole,0.46514484,True
+0574.jpg,Orchard Oriole,Baltimore Oriole,0.7105903,False
+0575.jpg,Orchard Oriole,Orchard Oriole,0.8688411,True
+0576.jpg,Scott Oriole,Scott Oriole,0.56588966,True
+0577.jpg,Scott Oriole,Scott Oriole,0.3220154,True
+0578.jpg,Scott Oriole,Scott Oriole,0.7039294,True
+0579.jpg,Scott Oriole,Scott Oriole,0.9512701,True
+0580.jpg,Scott Oriole,Scott Oriole,0.94195217,True
+0581.jpg,Scott Oriole,Scott Oriole,0.5351038,True
+0582.jpg,Ovenbird,Ovenbird,0.15382902,True
+0583.jpg,Ovenbird,Ovenbird,0.76098335,True
+0584.jpg,Ovenbird,Ovenbird,0.51074624,True
+0585.jpg,Ovenbird,Ovenbird,0.67645115,True
+0586.jpg,Ovenbird,Ovenbird,0.8916986,True
+0587.jpg,Ovenbird,Ovenbird,0.850358,True
+0588.jpg,Brown Pelican,Brown Pelican,0.8836805,True
+0589.jpg,Brown Pelican,Brown Pelican,0.9468057,True
+0590.jpg,Brown Pelican,Brown Pelican,0.8804312,True
+0591.jpg,Brown Pelican,Brown Pelican,0.9432346,True
+0592.jpg,Brown Pelican,Brown Pelican,0.85651433,True
+0593.jpg,Brown Pelican,Brown Pelican,0.8513362,True
+0594.jpg,White Pelican,White Pelican,0.82841384,True
+0595.jpg,White Pelican,White Pelican,0.7195387,True
+0596.jpg,White Pelican,White Pelican,0.86116445,True
+0597.jpg,White Pelican,White Pelican,0.41040945,True
+0598.jpg,White Pelican,White Pelican,0.920876,True
+0599.jpg,Western Wood Pewee,Western Wood Pewee,0.42015985,True
+0600.jpg,Western Wood Pewee,Western Wood Pewee,0.8556284,True
+0601.jpg,Western Wood Pewee,Western Wood Pewee,0.24595511,True
+0602.jpg,Western Wood Pewee,Western Wood Pewee,0.7512721,True
+0603.jpg,Western Wood Pewee,Western Wood Pewee,0.7200835,True
+0604.jpg,Western Wood Pewee,Western Wood Pewee,0.50102264,True
+0605.jpg,Western Wood Pewee,Western Wood Pewee,0.5352659,True
+0606.jpg,Sayornis,Sayornis,0.93291765,True
+0607.jpg,Sayornis,Least Flycatcher,0.7254109,False
+0608.jpg,Sayornis,Gray Kingbird,0.2853774,False
+0609.jpg,Sayornis,Sayornis,0.4120004,True
+0610.jpg,Sayornis,Sayornis,0.49858958,True
+0611.jpg,American Pipit,American Pipit,0.8257427,True
+0612.jpg,American Pipit,American Pipit,0.67227024,True
+0613.jpg,American Pipit,American Pipit,0.23453866,True
+0614.jpg,American Pipit,American Pipit,0.5654594,True
+0615.jpg,American Pipit,American Pipit,0.9345725,True
+0616.jpg,American Pipit,American Pipit,0.7896667,True
+0617.jpg,Whip poor Will,Whip poor Will,0.5099152,True
+0618.jpg,Whip poor Will,Rusty Blackbird,0.29589337,False
+0619.jpg,Whip poor Will,Whip poor Will,0.78152305,True
+0620.jpg,Whip poor Will,Chuck will Widow,0.13843782,False
+0621.jpg,Horned Puffin,Horned Puffin,0.8496633,True
+0622.jpg,Horned Puffin,Horned Puffin,0.9062433,True
+0623.jpg,Horned Puffin,Horned Puffin,0.8653663,True
+0624.jpg,Horned Puffin,Horned Puffin,0.8747745,True
+0625.jpg,Horned Puffin,Horned Puffin,0.9632298,True
+0626.jpg,Horned Puffin,Horned Puffin,0.9631143,True
+0627.jpg,Common Raven,American Crow,0.58837134,False
+0628.jpg,Common Raven,Fish Crow,0.12874898,False
+0629.jpg,Common Raven,Common Raven,0.2147012,True
+0630.jpg,Common Raven,Common Raven,0.9586648,True
+0631.jpg,Common Raven,Common Raven,0.29063037,True
+0632.jpg,White necked Raven,White necked Raven,0.17976056,True
+0633.jpg,White necked Raven,White necked Raven,0.35772735,True
+0634.jpg,White necked Raven,White necked Raven,0.9301775,True
+0635.jpg,White necked Raven,White necked Raven,0.57286644,True
+0636.jpg,White necked Raven,White necked Raven,0.68960077,True
+0637.jpg,White necked Raven,White necked Raven,0.8677099,True
+0638.jpg,American Redstart,American Redstart,0.85694736,True
+0639.jpg,American Redstart,American Redstart,0.898243,True
+0640.jpg,American Redstart,American Redstart,0.11548068,True
+0641.jpg,American Redstart,Blue headed Vireo,0.110876665,False
+0642.jpg,American Redstart,American Redstart,0.95581967,True
+0643.jpg,American Redstart,American Redstart,0.7783323,True
+0644.jpg,Geococcyx,Geococcyx,0.8629064,True
+0645.jpg,Geococcyx,Geococcyx,0.88841784,True
+0646.jpg,Geococcyx,Geococcyx,0.570498,True
+0647.jpg,Geococcyx,Geococcyx,0.91378945,True
+0648.jpg,Geococcyx,Geococcyx,0.9235966,True
+0649.jpg,Loggerhead Shrike,Loggerhead Shrike,0.9473311,True
+0650.jpg,Loggerhead Shrike,Great Grey Shrike,0.25600854,False
+0651.jpg,Loggerhead Shrike,Loggerhead Shrike,0.9280971,True
+0652.jpg,Loggerhead Shrike,Great Grey Shrike,0.6966659,False
+0653.jpg,Loggerhead Shrike,Great Grey Shrike,0.5839534,False
+0654.jpg,Loggerhead Shrike,Loggerhead Shrike,0.9522135,True
+0655.jpg,Loggerhead Shrike,Loggerhead Shrike,0.90983313,True
+0656.jpg,Great Grey Shrike,Great Grey Shrike,0.9038406,True
+0657.jpg,Great Grey Shrike,Great Grey Shrike,0.60443115,True
+0658.jpg,Great Grey Shrike,Loggerhead Shrike,0.70907557,False
+0659.jpg,Great Grey Shrike,Great Grey Shrike,0.8842414,True
+0660.jpg,Great Grey Shrike,Bobolink,0.39846197,False
+0661.jpg,Great Grey Shrike,Great Grey Shrike,0.26505625,True
+0662.jpg,Baird Sparrow,Baird Sparrow,0.83953905,True
+0663.jpg,Baird Sparrow,Baird Sparrow,0.8800672,True
+0664.jpg,Baird Sparrow,Baird Sparrow,0.870908,True
+0665.jpg,Baird Sparrow,Baird Sparrow,0.3914937,True
+0666.jpg,Baird Sparrow,Baird Sparrow,0.786812,True
+0667.jpg,Baird Sparrow,Baird Sparrow,0.677774,True
+0668.jpg,Baird Sparrow,Baird Sparrow,0.7884522,True
+0669.jpg,Black throated Sparrow,Black throated Sparrow,0.67008525,True
+0670.jpg,Black throated Sparrow,Black throated Sparrow,0.9178415,True
+0671.jpg,Black throated Sparrow,Black throated Sparrow,0.9064481,True
+0672.jpg,Black throated Sparrow,Black throated Sparrow,0.7993267,True
+0673.jpg,Black throated Sparrow,Black throated Sparrow,0.80026966,True
+0674.jpg,Black throated Sparrow,Black throated Sparrow,0.74377733,True
+0675.jpg,Black throated Sparrow,Black throated Sparrow,0.9349508,True
+0676.jpg,Brewer Sparrow,Brewer Sparrow,0.8797263,True
+0677.jpg,Brewer Sparrow,Brewer Sparrow,0.38122353,True
+0678.jpg,Brewer Sparrow,Brewer Sparrow,0.72378564,True
+0679.jpg,Brewer Sparrow,Savannah Sparrow,0.21683635,False
+0680.jpg,Brewer Sparrow,Brewer Sparrow,0.324588,True
+0681.jpg,Brewer Sparrow,Brewer Sparrow,0.7865905,True
+0682.jpg,Brewer Sparrow,Brewer Sparrow,0.9291481,True
+0683.jpg,Chipping Sparrow,Chipping Sparrow,0.23177586,True
+0684.jpg,Chipping Sparrow,Chipping Sparrow,0.9616389,True
+0685.jpg,Chipping Sparrow,Chipping Sparrow,0.32211226,True
+0686.jpg,Chipping Sparrow,Northern Waterthrush,0.04461666,False
+0687.jpg,Chipping Sparrow,Chipping Sparrow,0.69308317,True
+0688.jpg,Chipping Sparrow,Chipping Sparrow,0.8637188,True
+0689.jpg,Clay colored Sparrow,Clay colored Sparrow,0.4510063,True
+0690.jpg,Clay colored Sparrow,Clay colored Sparrow,0.42007715,True
+0691.jpg,Clay colored Sparrow,Clay colored Sparrow,0.76131344,True
+0692.jpg,Clay colored Sparrow,Clay colored Sparrow,0.63244104,True
+0693.jpg,Clay colored Sparrow,Brewer Sparrow,0.54936934,False
+0694.jpg,Clay colored Sparrow,Clay colored Sparrow,0.74850464,True
+0695.jpg,Clay colored Sparrow,Clay colored Sparrow,0.43745416,True
+0696.jpg,House Sparrow,House Sparrow,0.8258515,True
+0697.jpg,House Sparrow,House Sparrow,0.702357,True
+0698.jpg,House Sparrow,House Sparrow,0.57569313,True
+0699.jpg,House Sparrow,House Sparrow,0.58965695,True
+0700.jpg,House Sparrow,House Sparrow,0.7854157,True
+0701.jpg,House Sparrow,House Sparrow,0.81715035,True
+0702.jpg,Field Sparrow,Field Sparrow,0.7295055,True
+0703.jpg,Field Sparrow,Field Sparrow,0.35268274,True
+0704.jpg,Field Sparrow,Field Sparrow,0.92923677,True
+0705.jpg,Field Sparrow,Field Sparrow,0.83197683,True
+0706.jpg,Field Sparrow,Chipping Sparrow,0.34663212,False
+0707.jpg,Field Sparrow,Field Sparrow,0.584928,True
+0708.jpg,Fox Sparrow,Fox Sparrow,0.9061398,True
+0709.jpg,Fox Sparrow,Fox Sparrow,0.8975467,True
+0710.jpg,Fox Sparrow,Fox Sparrow,0.94346195,True
+0711.jpg,Fox Sparrow,Fox Sparrow,0.39762896,True
+0712.jpg,Fox Sparrow,Fox Sparrow,0.9266913,True
+0713.jpg,Fox Sparrow,Song Sparrow,0.6303171,False
+0714.jpg,Fox Sparrow,Fox Sparrow,0.8751919,True
+0715.jpg,Grasshopper Sparrow,Warbling Vireo,0.06327621,False
+0716.jpg,Grasshopper Sparrow,Grasshopper Sparrow,0.57857364,True
+0717.jpg,Grasshopper Sparrow,Grasshopper Sparrow,0.78062195,True
+0718.jpg,Grasshopper Sparrow,Grasshopper Sparrow,0.63992256,True
+0719.jpg,Grasshopper Sparrow,Grasshopper Sparrow,0.26842847,True
+0720.jpg,Grasshopper Sparrow,Grasshopper Sparrow,0.46341753,True
+0721.jpg,Grasshopper Sparrow,Grasshopper Sparrow,0.94895464,True
+0722.jpg,Harris Sparrow,Harris Sparrow,0.9543143,True
+0723.jpg,Harris Sparrow,Harris Sparrow,0.978049,True
+0724.jpg,Harris Sparrow,Harris Sparrow,0.07600526,True
+0725.jpg,Harris Sparrow,Harris Sparrow,0.9089456,True
+0726.jpg,Harris Sparrow,Harris Sparrow,0.310226,True
+0727.jpg,Henslow Sparrow,Savannah Sparrow,0.29004562,False
+0728.jpg,Henslow Sparrow,Henslow Sparrow,0.90591186,True
+0729.jpg,Henslow Sparrow,Baird Sparrow,0.29592535,False
+0730.jpg,Henslow Sparrow,Savannah Sparrow,0.21130535,False
+0731.jpg,Henslow Sparrow,Nelson Sharp tailed Sparrow,0.20550337,False
+0732.jpg,Henslow Sparrow,Song Sparrow,0.1204315,False
+0733.jpg,Henslow Sparrow,Henslow Sparrow,0.94997287,True
+0734.jpg,Le Conte Sparrow,Le Conte Sparrow,0.70214695,True
+0735.jpg,Le Conte Sparrow,Le Conte Sparrow,0.74214584,True
+0736.jpg,Le Conte Sparrow,Le Conte Sparrow,0.4035694,True
+0737.jpg,Le Conte Sparrow,Le Conte Sparrow,0.760694,True
+0738.jpg,Le Conte Sparrow,Le Conte Sparrow,0.7327673,True
+0739.jpg,Le Conte Sparrow,Le Conte Sparrow,0.8991302,True
+0740.jpg,Le Conte Sparrow,Le Conte Sparrow,0.5321881,True
+0741.jpg,Lincoln Sparrow,Lincoln Sparrow,0.96198267,True
+0742.jpg,Lincoln Sparrow,Lincoln Sparrow,0.5112965,True
+0743.jpg,Lincoln Sparrow,Lincoln Sparrow,0.90698016,True
+0744.jpg,Lincoln Sparrow,Lincoln Sparrow,0.96208394,True
+0745.jpg,Lincoln Sparrow,Lincoln Sparrow,0.3473932,True
+0746.jpg,Lincoln Sparrow,Lincoln Sparrow,0.8144755,True
+0747.jpg,Lincoln Sparrow,Lincoln Sparrow,0.94459105,True
+0748.jpg,Nelson Sharp tailed Sparrow,Nelson Sharp tailed Sparrow,0.5960263,True
+0749.jpg,Nelson Sharp tailed Sparrow,Nelson Sharp tailed Sparrow,0.20585923,True
+0750.jpg,Nelson Sharp tailed Sparrow,Nelson Sharp tailed Sparrow,0.76356363,True
+0751.jpg,Nelson Sharp tailed Sparrow,Nelson Sharp tailed Sparrow,0.8251305,True
+0752.jpg,Nelson Sharp tailed Sparrow,Nelson Sharp tailed Sparrow,0.8557613,True
+0753.jpg,Nelson Sharp tailed Sparrow,Nelson Sharp tailed Sparrow,0.7774266,True
+0754.jpg,Savannah Sparrow,Savannah Sparrow,0.22537793,True
+0755.jpg,Savannah Sparrow,Savannah Sparrow,0.85905576,True
+0756.jpg,Savannah Sparrow,Savannah Sparrow,0.40299764,True
+0757.jpg,Savannah Sparrow,Savannah Sparrow,0.546812,True
+0758.jpg,Savannah Sparrow,Savannah Sparrow,0.7937997,True
+0759.jpg,Savannah Sparrow,Savannah Sparrow,0.30789554,True
+0760.jpg,Savannah Sparrow,Savannah Sparrow,0.8803101,True
+0761.jpg,Seaside Sparrow,Seaside Sparrow,0.92819244,True
+0762.jpg,Seaside Sparrow,Seaside Sparrow,0.422942,True
+0763.jpg,Seaside Sparrow,Seaside Sparrow,0.45831975,True
+0764.jpg,Seaside Sparrow,Seaside Sparrow,0.78412473,True
+0765.jpg,Seaside Sparrow,Seaside Sparrow,0.18008852,True
+0766.jpg,Song Sparrow,Song Sparrow,0.40714204,True
+0767.jpg,Song Sparrow,Song Sparrow,0.93975013,True
+0768.jpg,Song Sparrow,Song Sparrow,0.8307259,True
+0769.jpg,Song Sparrow,Vesper Sparrow,0.2057148,False
+0770.jpg,Song Sparrow,Northern Waterthrush,0.16623273,False
+0771.jpg,Song Sparrow,Song Sparrow,0.948931,True
+0772.jpg,Song Sparrow,Song Sparrow,0.939939,True
+0773.jpg,Song Sparrow,Song Sparrow,0.8684151,True
+0774.jpg,Tree Sparrow,Tree Sparrow,0.7916737,True
+0775.jpg,Tree Sparrow,Tree Sparrow,0.79338306,True
+0776.jpg,Tree Sparrow,Tree Sparrow,0.24681427,True
+0777.jpg,Tree Sparrow,Tree Sparrow,0.25518999,True
+0778.jpg,Vesper Sparrow,Vesper Sparrow,0.20651297,True
+0779.jpg,Vesper Sparrow,Vesper Sparrow,0.34504965,True
+0780.jpg,Vesper Sparrow,Vesper Sparrow,0.40225565,True
+0781.jpg,Vesper Sparrow,Vesper Sparrow,0.9479865,True
+0782.jpg,Vesper Sparrow,Vesper Sparrow,0.44000387,True
+0783.jpg,Vesper Sparrow,Vesper Sparrow,0.8008699,True
+0784.jpg,Vesper Sparrow,Clay colored Sparrow,0.3349686,False
+0785.jpg,Vesper Sparrow,Vesper Sparrow,0.6423667,True
+0786.jpg,White crowned Sparrow,White crowned Sparrow,0.88753,True
+0787.jpg,White crowned Sparrow,Marsh Wren,0.08312889,False
+0788.jpg,White crowned Sparrow,White crowned Sparrow,0.6965318,True
+0789.jpg,White crowned Sparrow,White crowned Sparrow,0.44979015,True
+0790.jpg,White crowned Sparrow,White crowned Sparrow,0.27705836,True
+0791.jpg,White throated Sparrow,White throated Sparrow,0.84706986,True
+0792.jpg,White throated Sparrow,White throated Sparrow,0.4763424,True
+0793.jpg,White throated Sparrow,White throated Sparrow,0.42075393,True
+0794.jpg,White throated Sparrow,White throated Sparrow,0.93973076,True
+0795.jpg,White throated Sparrow,White throated Sparrow,0.6152076,True
+0796.jpg,White throated Sparrow,White throated Sparrow,0.78822327,True
+0797.jpg,White throated Sparrow,White throated Sparrow,0.28360713,True
+0798.jpg,Cape Glossy Starling,Cape Glossy Starling,0.79406863,True
+0799.jpg,Cape Glossy Starling,Cape Glossy Starling,0.75896364,True
+0800.jpg,Cape Glossy Starling,Cape Glossy Starling,0.9623728,True
+0801.jpg,Cape Glossy Starling,Cape Glossy Starling,0.9659453,True
+0802.jpg,Cape Glossy Starling,Cape Glossy Starling,0.3793943,True
+0803.jpg,Cape Glossy Starling,Cape Glossy Starling,0.8330144,True
+0804.jpg,Cape Glossy Starling,Cape Glossy Starling,0.921927,True
+0805.jpg,Bank Swallow,Bank Swallow,0.41878572,True
+0806.jpg,Bank Swallow,House Sparrow,0.1963552,False
+0807.jpg,Bank Swallow,Barn Swallow,0.8562311,False
+0808.jpg,Bank Swallow,Bank Swallow,0.13495038,True
+0809.jpg,Bank Swallow,Bank Swallow,0.6276046,True
+0810.jpg,Barn Swallow,Barn Swallow,0.83894295,True
+0811.jpg,Barn Swallow,Barn Swallow,0.3295997,True
+0812.jpg,Barn Swallow,Barn Swallow,0.70680004,True
+0813.jpg,Barn Swallow,Barn Swallow,0.7557272,True
+0814.jpg,Barn Swallow,Barn Swallow,0.059969477,True
+0815.jpg,Cliff Swallow,Cliff Swallow,0.7496433,True
+0816.jpg,Cliff Swallow,Cliff Swallow,0.5296416,True
+0817.jpg,Cliff Swallow,Cliff Swallow,0.78498775,True
+0818.jpg,Cliff Swallow,Cliff Swallow,0.9221503,True
+0819.jpg,Cliff Swallow,Cliff Swallow,0.91524714,True
+0820.jpg,Cliff Swallow,Cliff Swallow,0.7739971,True
+0821.jpg,Tree Swallow,Tree Swallow,0.5947664,True
+0822.jpg,Tree Swallow,Tree Swallow,0.32173178,True
+0823.jpg,Tree Swallow,Tree Swallow,0.93635,True
+0824.jpg,Tree Swallow,Ruby throated Hummingbird,0.06150954,False
+0825.jpg,Tree Swallow,Tree Swallow,0.89758915,True
+0826.jpg,Tree Swallow,Tree Swallow,0.61466956,True
+0827.jpg,Tree Swallow,Yellow billed Cuckoo,0.302689,False
+0828.jpg,Scarlet Tanager,Scarlet Tanager,0.92734826,True
+0829.jpg,Scarlet Tanager,Scarlet Tanager,0.8477707,True
+0830.jpg,Scarlet Tanager,Scarlet Tanager,0.7986049,True
+0831.jpg,Scarlet Tanager,Scarlet Tanager,0.83156747,True
+0832.jpg,Scarlet Tanager,Scarlet Tanager,0.83778787,True
+0833.jpg,Summer Tanager,Summer Tanager,0.867015,True
+0834.jpg,Summer Tanager,Summer Tanager,0.68992484,True
+0835.jpg,Summer Tanager,Summer Tanager,0.4859152,True
+0836.jpg,Summer Tanager,Summer Tanager,0.47739837,True
+0837.jpg,Artic Tern,Heermann Gull,0.0764664,False
+0838.jpg,Artic Tern,Artic Tern,0.13731101,True
+0839.jpg,Artic Tern,Caspian Tern,0.34231743,False
+0840.jpg,Artic Tern,Black Tern,0.3582728,False
+0841.jpg,Artic Tern,Artic Tern,0.72395456,True
+0842.jpg,Artic Tern,Artic Tern,0.8195019,True
+0843.jpg,Artic Tern,Artic Tern,0.21948388,True
+0844.jpg,Black Tern,Black Tern,0.2942943,True
+0845.jpg,Black Tern,Black Tern,0.43908638,True
+0846.jpg,Black Tern,Black Tern,0.57101107,True
+0847.jpg,Black Tern,Black Tern,0.5786854,True
+0848.jpg,Caspian Tern,Caspian Tern,0.91993225,True
+0849.jpg,Caspian Tern,Caspian Tern,0.7836681,True
+0850.jpg,Caspian Tern,Caspian Tern,0.531987,True
+0851.jpg,Caspian Tern,Caspian Tern,0.8069959,True
+0852.jpg,Caspian Tern,Caspian Tern,0.31351492,True
+0853.jpg,Caspian Tern,Caspian Tern,0.7561384,True
+0854.jpg,Caspian Tern,Caspian Tern,0.8399307,True
+0855.jpg,Caspian Tern,Caspian Tern,0.73837304,True
+0856.jpg,Common Tern,Elegant Tern,0.11569286,False
+0857.jpg,Common Tern,Artic Tern,0.8217151,False
+0858.jpg,Common Tern,Artic Tern,0.24264799,False
+0859.jpg,Common Tern,Common Tern,0.8035801,True
+0860.jpg,Common Tern,Common Tern,0.8223622,True
+0861.jpg,Common Tern,Common Tern,0.7015075,True
+0862.jpg,Common Tern,Elegant Tern,0.15285273,False
+0863.jpg,Elegant Tern,Elegant Tern,0.68999076,True
+0864.jpg,Elegant Tern,Caspian Tern,0.09736608,False
+0865.jpg,Elegant Tern,Elegant Tern,0.82591605,True
+0866.jpg,Elegant Tern,Elegant Tern,0.67438656,True
+0867.jpg,Elegant Tern,Common Tern,0.34027392,False
+0868.jpg,Forsters Tern,Forsters Tern,0.90442705,True
+0869.jpg,Forsters Tern,Forsters Tern,0.58437777,True
+0870.jpg,Forsters Tern,Forsters Tern,0.8755888,True
+0871.jpg,Forsters Tern,Forsters Tern,0.23319429,True
+0872.jpg,Forsters Tern,Forsters Tern,0.81628823,True
+0873.jpg,Least Tern,Least Tern,0.9051945,True
+0874.jpg,Least Tern,Least Tern,0.46893844,True
+0875.jpg,Least Tern,Least Tern,0.4160168,True
+0876.jpg,Least Tern,Least Tern,0.6793171,True
+0877.jpg,Least Tern,Least Tern,0.85886157,True
+0878.jpg,Green tailed Towhee,Green tailed Towhee,0.9421418,True
+0879.jpg,Green tailed Towhee,Green tailed Towhee,0.9109608,True
+0880.jpg,Green tailed Towhee,Green tailed Towhee,0.9452432,True
+0881.jpg,Green tailed Towhee,Green tailed Towhee,0.8549608,True
+0882.jpg,Green tailed Towhee,Green tailed Towhee,0.9225148,True
+0883.jpg,Green tailed Towhee,Green tailed Towhee,0.79139453,True
+0884.jpg,Green tailed Towhee,Green tailed Towhee,0.33943474,True
+0885.jpg,Brown Thrasher,Brown Thrasher,0.8378814,True
+0886.jpg,Brown Thrasher,Brown Thrasher,0.88233,True
+0887.jpg,Brown Thrasher,Brown Thrasher,0.94708055,True
+0888.jpg,Brown Thrasher,Brown Thrasher,0.7656942,True
+0889.jpg,Brown Thrasher,Brown Thrasher,0.759226,True
+0890.jpg,Brown Thrasher,Brown Thrasher,0.76408595,True
+0891.jpg,Sage Thrasher,Sage Thrasher,0.77317214,True
+0892.jpg,Sage Thrasher,Sage Thrasher,0.3238603,True
+0893.jpg,Sage Thrasher,Bobolink,0.2288018,False
+0894.jpg,Sage Thrasher,Sage Thrasher,0.86547726,True
+0895.jpg,Sage Thrasher,Sage Thrasher,0.24579552,True
+0896.jpg,Black capped Vireo,Black capped Vireo,0.57487637,True
+0897.jpg,Black capped Vireo,Black capped Vireo,0.8884884,True
+0898.jpg,Black capped Vireo,Belted Kingfisher,0.14690919,False
+0899.jpg,Black capped Vireo,Black capped Vireo,0.96116567,True
+0900.jpg,Black capped Vireo,Black capped Vireo,0.77969503,True
+0901.jpg,Blue headed Vireo,Blue headed Vireo,0.7922044,True
+0902.jpg,Blue headed Vireo,Blue headed Vireo,0.10209102,True
+0903.jpg,Blue headed Vireo,Blue headed Vireo,0.7911345,True
+0904.jpg,Blue headed Vireo,Blue headed Vireo,0.77447397,True
+0905.jpg,Blue headed Vireo,Blue headed Vireo,0.93468803,True
+0906.jpg,Blue headed Vireo,Blue headed Vireo,0.81174016,True
+0907.jpg,Blue headed Vireo,Blue headed Vireo,0.76838374,True
+0908.jpg,Philadelphia Vireo,Philadelphia Vireo,0.28966343,True
+0909.jpg,Philadelphia Vireo,Philadelphia Vireo,0.48524034,True
+0910.jpg,Philadelphia Vireo,Philadelphia Vireo,0.93022233,True
+0911.jpg,Philadelphia Vireo,Philadelphia Vireo,0.869684,True
+0912.jpg,Philadelphia Vireo,Philadelphia Vireo,0.384188,True
+0913.jpg,Philadelphia Vireo,Philadelphia Vireo,0.6839135,True
+0914.jpg,Philadelphia Vireo,Philadelphia Vireo,0.6683637,True
+0915.jpg,Red eyed Vireo,Red eyed Vireo,0.20817609,True
+0916.jpg,Red eyed Vireo,Red eyed Vireo,0.8855137,True
+0917.jpg,Red eyed Vireo,Red eyed Vireo,0.51421654,True
+0918.jpg,Red eyed Vireo,Tennessee Warbler,0.37829953,False
+0919.jpg,Red eyed Vireo,Red eyed Vireo,0.85962486,True
+0920.jpg,Red eyed Vireo,Warbling Vireo,0.17971532,False
+0921.jpg,Red eyed Vireo,Tennessee Warbler,0.27479404,False
+0922.jpg,Warbling Vireo,Swainson Warbler,0.2535903,False
+0923.jpg,Warbling Vireo,Warbling Vireo,0.35214177,True
+0924.jpg,Warbling Vireo,Warbling Vireo,0.54386145,True
+0925.jpg,Warbling Vireo,Warbling Vireo,0.62898105,True
+0926.jpg,Warbling Vireo,Warbling Vireo,0.7168202,True
+0927.jpg,Warbling Vireo,Warbling Vireo,0.6787861,True
+0928.jpg,Warbling Vireo,Warbling Vireo,0.39518794,True
+0929.jpg,White eyed Vireo,White eyed Vireo,0.57411337,True
+0930.jpg,White eyed Vireo,White eyed Vireo,0.82811403,True
+0931.jpg,White eyed Vireo,White eyed Vireo,0.7815917,True
+0932.jpg,White eyed Vireo,White eyed Vireo,0.86941093,True
+0933.jpg,White eyed Vireo,White eyed Vireo,0.82206553,True
+0934.jpg,White eyed Vireo,White eyed Vireo,0.92987204,True
+0935.jpg,White eyed Vireo,White eyed Vireo,0.8060266,True
+0936.jpg,Yellow throated Vireo,Yellow throated Vireo,0.39873207,True
+0937.jpg,Yellow throated Vireo,Yellow throated Vireo,0.5704728,True
+0938.jpg,Yellow throated Vireo,Yellow throated Vireo,0.33897468,True
+0939.jpg,Yellow throated Vireo,Yellow throated Vireo,0.9144308,True
+0940.jpg,Yellow throated Vireo,Yellow throated Vireo,0.57814735,True
+0941.jpg,Yellow throated Vireo,Yellow throated Vireo,0.74786574,True
+0942.jpg,Bay breasted Warbler,Bay breasted Warbler,0.9159078,True
+0943.jpg,Bay breasted Warbler,Bay breasted Warbler,0.86255413,True
+0944.jpg,Bay breasted Warbler,Bay breasted Warbler,0.9055092,True
+0945.jpg,Bay breasted Warbler,Bay breasted Warbler,0.85982454,True
+0946.jpg,Bay breasted Warbler,Bay breasted Warbler,0.81621534,True
+0947.jpg,Bay breasted Warbler,Bay breasted Warbler,0.9239195,True
+0948.jpg,Black and white Warbler,Black and white Warbler,0.79457635,True
+0949.jpg,Black and white Warbler,Black and white Warbler,0.31136954,True
+0950.jpg,Black and white Warbler,Black and white Warbler,0.85770684,True
+0951.jpg,Black and white Warbler,Black and white Warbler,0.90108275,True
+0952.jpg,Black and white Warbler,Black and white Warbler,0.91107035,True
+0953.jpg,Black and white Warbler,Black and white Warbler,0.9136538,True
+0954.jpg,Black and white Warbler,Black and white Warbler,0.19427444,True
+0955.jpg,Black throated Blue Warbler,Black throated Blue Warbler,0.9587006,True
+0956.jpg,Black throated Blue Warbler,Black throated Blue Warbler,0.14492378,True
+0957.jpg,Black throated Blue Warbler,Black throated Blue Warbler,0.60909855,True
+0958.jpg,Black throated Blue Warbler,Black throated Blue Warbler,0.30360135,True
+0959.jpg,Blue winged Warbler,Blue winged Warbler,0.8484021,True
+0960.jpg,Blue winged Warbler,Blue winged Warbler,0.83816934,True
+0961.jpg,Blue winged Warbler,Blue winged Warbler,0.87659353,True
+0962.jpg,Blue winged Warbler,Blue winged Warbler,0.82923996,True
+0963.jpg,Blue winged Warbler,Blue winged Warbler,0.923704,True
+0964.jpg,Blue winged Warbler,Blue winged Warbler,0.94862187,True
+0965.jpg,Blue winged Warbler,Blue winged Warbler,0.83942807,True
+0966.jpg,Canada Warbler,Canada Warbler,0.5975562,True
+0967.jpg,Canada Warbler,Canada Warbler,0.8622009,True
+0968.jpg,Canada Warbler,Canada Warbler,0.3525185,True
+0969.jpg,Canada Warbler,Canada Warbler,0.8749108,True
+0970.jpg,Canada Warbler,Canada Warbler,0.8212137,True
+0971.jpg,Canada Warbler,Canada Warbler,0.88965154,True
+0972.jpg,Canada Warbler,Canada Warbler,0.60360956,True
+0973.jpg,Cape May Warbler,Cape May Warbler,0.85975444,True
+0974.jpg,Cape May Warbler,Cape May Warbler,0.5802431,True
+0975.jpg,Cape May Warbler,Cape May Warbler,0.8691831,True
+0976.jpg,Cape May Warbler,Tennessee Warbler,0.5420111,False
+0977.jpg,Cape May Warbler,Cape May Warbler,0.93278074,True
+0978.jpg,Cape May Warbler,Cape May Warbler,0.72242236,True
+0979.jpg,Cape May Warbler,Cape May Warbler,0.91014755,True
+0980.jpg,Cerulean Warbler,Cerulean Warbler,0.8755088,True
+0981.jpg,Cerulean Warbler,Cerulean Warbler,0.5702471,True
+0982.jpg,Cerulean Warbler,Cerulean Warbler,0.8262425,True
+0983.jpg,Cerulean Warbler,Cerulean Warbler,0.9704827,True
+0984.jpg,Cerulean Warbler,Lazuli Bunting,0.21930116,False
+0985.jpg,Chestnut sided Warbler,Chestnut sided Warbler,0.89500135,True
+0986.jpg,Chestnut sided Warbler,Chestnut sided Warbler,0.89853936,True
+0987.jpg,Chestnut sided Warbler,Chestnut sided Warbler,0.799353,True
+0988.jpg,Chestnut sided Warbler,Chestnut sided Warbler,0.6556758,True
+0989.jpg,Chestnut sided Warbler,Chestnut sided Warbler,0.8855455,True
+0990.jpg,Chestnut sided Warbler,Chestnut sided Warbler,0.9542356,True
+0991.jpg,Golden winged Warbler,Golden winged Warbler,0.8546752,True
+0992.jpg,Golden winged Warbler,Golden winged Warbler,0.9314551,True
+0993.jpg,Golden winged Warbler,Golden winged Warbler,0.83390045,True
+0994.jpg,Golden winged Warbler,Golden winged Warbler,0.8985508,True
+0995.jpg,Golden winged Warbler,Golden winged Warbler,0.9296447,True
+0996.jpg,Golden winged Warbler,Golden winged Warbler,0.90298665,True
+0997.jpg,Golden winged Warbler,Golden winged Warbler,0.9283547,True
+0998.jpg,Hooded Warbler,Hooded Warbler,0.9579629,True
+0999.jpg,Hooded Warbler,Hooded Warbler,0.7247028,True
+1000.jpg,Hooded Warbler,Hooded Warbler,0.91237503,True
+1001.jpg,Hooded Warbler,Hooded Warbler,0.8710758,True
+1002.jpg,Hooded Warbler,Hooded Warbler,0.82882637,True
+1003.jpg,Kentucky Warbler,Kentucky Warbler,0.7663421,True
+1004.jpg,Kentucky Warbler,Kentucky Warbler,0.44237867,True
+1005.jpg,Kentucky Warbler,Kentucky Warbler,0.5729717,True
+1006.jpg,Kentucky Warbler,Kentucky Warbler,0.6298479,True
+1007.jpg,Kentucky Warbler,Kentucky Warbler,0.91819,True
+1008.jpg,Kentucky Warbler,Kentucky Warbler,0.22490318,True
+1009.jpg,Magnolia Warbler,Magnolia Warbler,0.49154565,True
+1010.jpg,Magnolia Warbler,Magnolia Warbler,0.7342461,True
+1011.jpg,Magnolia Warbler,Magnolia Warbler,0.952941,True
+1012.jpg,Magnolia Warbler,Magnolia Warbler,0.91184974,True
+1013.jpg,Magnolia Warbler,Magnolia Warbler,0.85323334,True
+1014.jpg,Mourning Warbler,Mourning Warbler,0.54579353,True
+1015.jpg,Mourning Warbler,Mourning Warbler,0.8952651,True
+1016.jpg,Mourning Warbler,Mourning Warbler,0.15690929,True
+1017.jpg,Mourning Warbler,Mourning Warbler,0.107894085,True
+1018.jpg,Mourning Warbler,Mourning Warbler,0.943832,True
+1019.jpg,Mourning Warbler,Nashville Warbler,0.7345774,False
+1020.jpg,Mourning Warbler,Mourning Warbler,0.91667634,True
+1021.jpg,Myrtle Warbler,Myrtle Warbler,0.7461399,True
+1022.jpg,Myrtle Warbler,Myrtle Warbler,0.70634395,True
+1023.jpg,Myrtle Warbler,Myrtle Warbler,0.5288844,True
+1024.jpg,Myrtle Warbler,Myrtle Warbler,0.35999465,True
+1025.jpg,Nashville Warbler,Nashville Warbler,0.586713,True
+1026.jpg,Nashville Warbler,Nashville Warbler,0.25965235,True
+1027.jpg,Nashville Warbler,Nashville Warbler,0.9198172,True
+1028.jpg,Nashville Warbler,Nashville Warbler,0.7818344,True
+1029.jpg,Nashville Warbler,Nashville Warbler,0.8581001,True
+1030.jpg,Nashville Warbler,Nashville Warbler,0.8986751,True
+1031.jpg,Orange crowned Warbler,Orange crowned Warbler,0.37532854,True
+1032.jpg,Orange crowned Warbler,Prothonotary Warbler,0.065229826,False
+1033.jpg,Orange crowned Warbler,Orange crowned Warbler,0.53954583,True
+1034.jpg,Orange crowned Warbler,Orange crowned Warbler,0.7829845,True
+1035.jpg,Orange crowned Warbler,Orange crowned Warbler,0.90135187,True
+1036.jpg,Orange crowned Warbler,Orange crowned Warbler,0.83858484,True
+1037.jpg,Palm Warbler,Palm Warbler,0.9041288,True
+1038.jpg,Palm Warbler,American Three toed Woodpecker,0.17968212,False
+1039.jpg,Palm Warbler,Palm Warbler,0.6219792,True
+1040.jpg,Palm Warbler,Pine Warbler,0.38438916,False
+1041.jpg,Palm Warbler,Palm Warbler,0.48596168,True
+1042.jpg,Palm Warbler,Palm Warbler,0.68925214,True
+1043.jpg,Pine Warbler,Pine Warbler,0.91481555,True
+1044.jpg,Pine Warbler,Pine Warbler,0.8963439,True
+1045.jpg,Pine Warbler,Pine Warbler,0.86267203,True
+1046.jpg,Pine Warbler,Pine Warbler,0.66346866,True
+1047.jpg,Pine Warbler,Pine Warbler,0.94083995,True
+1048.jpg,Pine Warbler,Pine Warbler,0.94586647,True
+1049.jpg,Prairie Warbler,Prairie Warbler,0.21226609,True
+1050.jpg,Prairie Warbler,Prairie Warbler,0.8248769,True
+1051.jpg,Prairie Warbler,Prairie Warbler,0.8123508,True
+1052.jpg,Prairie Warbler,Prairie Warbler,0.8463138,True
+1053.jpg,Prairie Warbler,Cape May Warbler,0.35658112,False
+1054.jpg,Prairie Warbler,Prairie Warbler,0.91775554,True
+1055.jpg,Prairie Warbler,Prairie Warbler,0.9308151,True
+1056.jpg,Prothonotary Warbler,Prothonotary Warbler,0.9057706,True
+1057.jpg,Prothonotary Warbler,Prothonotary Warbler,0.7831695,True
+1058.jpg,Prothonotary Warbler,Prothonotary Warbler,0.8133184,True
+1059.jpg,Prothonotary Warbler,Prothonotary Warbler,0.76701385,True
+1060.jpg,Prothonotary Warbler,Prothonotary Warbler,0.7292331,True
+1061.jpg,Prothonotary Warbler,Prothonotary Warbler,0.91568965,True
+1062.jpg,Prothonotary Warbler,Prothonotary Warbler,0.8744124,True
+1063.jpg,Swainson Warbler,Swainson Warbler,0.87087506,True
+1064.jpg,Swainson Warbler,Swainson Warbler,0.4936408,True
+1065.jpg,Swainson Warbler,Worm eating Warbler,0.10717288,False
+1066.jpg,Swainson Warbler,Swainson Warbler,0.94924015,True
+1067.jpg,Swainson Warbler,Swainson Warbler,0.94612604,True
+1068.jpg,Tennessee Warbler,Tennessee Warbler,0.21399754,True
+1069.jpg,Tennessee Warbler,Golden winged Warbler,0.4022422,False
+1070.jpg,Tennessee Warbler,Red eyed Vireo,0.088260904,False
+1071.jpg,Tennessee Warbler,Tennessee Warbler,0.6785687,True
+1072.jpg,Tennessee Warbler,Tennessee Warbler,0.14029948,True
+1073.jpg,Tennessee Warbler,Scissor tailed Flycatcher,0.17831142,False
+1074.jpg,Wilson Warbler,Wilson Warbler,0.7501917,True
+1075.jpg,Wilson Warbler,Orange crowned Warbler,0.29157156,False
+1076.jpg,Wilson Warbler,Wilson Warbler,0.9245954,True
+1077.jpg,Wilson Warbler,Wilson Warbler,0.9498202,True
+1078.jpg,Wilson Warbler,Wilson Warbler,0.43346766,True
+1079.jpg,Wilson Warbler,Wilson Warbler,0.9490373,True
+1080.jpg,Wilson Warbler,Wilson Warbler,0.29206628,True
+1081.jpg,Worm eating Warbler,Red eyed Vireo,0.23036091,False
+1082.jpg,Worm eating Warbler,Worm eating Warbler,0.79918075,True
+1083.jpg,Worm eating Warbler,Blue winged Warbler,0.05203292,False
+1084.jpg,Worm eating Warbler,Worm eating Warbler,0.272449,True
+1085.jpg,Worm eating Warbler,Worm eating Warbler,0.88114935,True
+1086.jpg,Worm eating Warbler,Worm eating Warbler,0.41902262,True
+1087.jpg,Yellow Warbler,Yellow Warbler,0.70440906,True
+1088.jpg,Yellow Warbler,Yellow Warbler,0.9096731,True
+1089.jpg,Yellow Warbler,Yellow Warbler,0.44174734,True
+1090.jpg,Yellow Warbler,Yellow Warbler,0.6233277,True
+1091.jpg,Northern Waterthrush,Northern Waterthrush,0.8388798,True
+1092.jpg,Northern Waterthrush,Northern Waterthrush,0.81733745,True
+1093.jpg,Northern Waterthrush,Northern Waterthrush,0.8723457,True
+1094.jpg,Northern Waterthrush,Northern Waterthrush,0.91210544,True
+1095.jpg,Northern Waterthrush,Northern Waterthrush,0.8867186,True
+1096.jpg,Northern Waterthrush,Northern Waterthrush,0.17584857,True
+1097.jpg,Northern Waterthrush,Northern Waterthrush,0.9200574,True
+1098.jpg,Louisiana Waterthrush,Louisiana Waterthrush,0.693403,True
+1099.jpg,Louisiana Waterthrush,Louisiana Waterthrush,0.8172078,True
+1100.jpg,Louisiana Waterthrush,Louisiana Waterthrush,0.69087267,True
+1101.jpg,Louisiana Waterthrush,Louisiana Waterthrush,0.7112724,True
+1102.jpg,Louisiana Waterthrush,Louisiana Waterthrush,0.84252554,True
+1103.jpg,Louisiana Waterthrush,Louisiana Waterthrush,0.8787983,True
+1104.jpg,Bohemian Waxwing,Bohemian Waxwing,0.65402097,True
+1105.jpg,Bohemian Waxwing,Bohemian Waxwing,0.37149042,True
+1106.jpg,Bohemian Waxwing,Bohemian Waxwing,0.7489841,True
+1107.jpg,Bohemian Waxwing,Bohemian Waxwing,0.8833965,True
+1108.jpg,Bohemian Waxwing,Bohemian Waxwing,0.9407098,True
+1109.jpg,Bohemian Waxwing,Bohemian Waxwing,0.8606989,True
+1110.jpg,Bohemian Waxwing,Bohemian Waxwing,0.8473363,True
+1111.jpg,Cedar Waxwing,Cedar Waxwing,0.4057232,True
+1112.jpg,Cedar Waxwing,Cedar Waxwing,0.6795608,True
+1113.jpg,Cedar Waxwing,Cedar Waxwing,0.68617827,True
+1114.jpg,Cedar Waxwing,Cedar Waxwing,0.8744114,True
+1115.jpg,Cedar Waxwing,Cedar Waxwing,0.78454703,True
+1116.jpg,Cedar Waxwing,Cedar Waxwing,0.73101926,True
+1117.jpg,Cedar Waxwing,Cedar Waxwing,0.8857963,True
+1118.jpg,American Three toed Woodpecker,American Three toed Woodpecker,0.7249702,True
+1119.jpg,American Three toed Woodpecker,American Three toed Woodpecker,0.59188277,True
+1120.jpg,American Three toed Woodpecker,American Three toed Woodpecker,0.92980134,True
+1121.jpg,American Three toed Woodpecker,American Three toed Woodpecker,0.81587446,True
+1122.jpg,American Three toed Woodpecker,American Three toed Woodpecker,0.5896912,True
+1123.jpg,American Three toed Woodpecker,American Three toed Woodpecker,0.90395427,True
+1124.jpg,Pileated Woodpecker,Pileated Woodpecker,0.85342395,True
+1125.jpg,Pileated Woodpecker,Pileated Woodpecker,0.9258623,True
+1126.jpg,Pileated Woodpecker,Pileated Woodpecker,0.71719915,True
+1127.jpg,Pileated Woodpecker,Pileated Woodpecker,0.8586444,True
+1128.jpg,Pileated Woodpecker,Pileated Woodpecker,0.94898295,True
+1129.jpg,Pileated Woodpecker,Pileated Woodpecker,0.5858168,True
+1130.jpg,Pileated Woodpecker,Pileated Woodpecker,0.7901483,True
+1131.jpg,Pileated Woodpecker,Pileated Woodpecker,0.8854754,True
+1132.jpg,Red bellied Woodpecker,Red bellied Woodpecker,0.8705113,True
+1133.jpg,Red bellied Woodpecker,Red bellied Woodpecker,0.90771586,True
+1134.jpg,Red bellied Woodpecker,Red bellied Woodpecker,0.55256504,True
+1135.jpg,Red bellied Woodpecker,Red bellied Woodpecker,0.7405062,True
+1136.jpg,Red bellied Woodpecker,Red bellied Woodpecker,0.9087826,True
+1137.jpg,Red bellied Woodpecker,Red bellied Woodpecker,0.92447424,True
+1138.jpg,Red bellied Woodpecker,Red bellied Woodpecker,0.9272474,True
+1139.jpg,Red cockaded Woodpecker,Red cockaded Woodpecker,0.88184834,True
+1140.jpg,Red cockaded Woodpecker,Downy Woodpecker,0.30785966,False
+1141.jpg,Red cockaded Woodpecker,Red cockaded Woodpecker,0.9099675,True
+1142.jpg,Red cockaded Woodpecker,Red cockaded Woodpecker,0.89398634,True
+1143.jpg,Red headed Woodpecker,Red headed Woodpecker,0.8364623,True
+1144.jpg,Red headed Woodpecker,Summer Tanager,0.050422218,False
+1145.jpg,Red headed Woodpecker,Red headed Woodpecker,0.87210166,True
+1146.jpg,Red headed Woodpecker,Red headed Woodpecker,0.79437906,True
+1147.jpg,Red headed Woodpecker,Red headed Woodpecker,0.9385508,True
+1148.jpg,Red headed Woodpecker,Red headed Woodpecker,0.6705892,True
+1149.jpg,Downy Woodpecker,Downy Woodpecker,0.93701446,True
+1150.jpg,Downy Woodpecker,Downy Woodpecker,0.9603849,True
+1151.jpg,Downy Woodpecker,Downy Woodpecker,0.8951307,True
+1152.jpg,Downy Woodpecker,Downy Woodpecker,0.3271144,True
+1153.jpg,Downy Woodpecker,Downy Woodpecker,0.9509311,True
+1154.jpg,Downy Woodpecker,Downy Woodpecker,0.868652,True
+1155.jpg,Downy Woodpecker,Downy Woodpecker,0.83581233,True
+1156.jpg,Downy Woodpecker,Downy Woodpecker,0.8958792,True
+1157.jpg,Bewick Wren,Brown Thrasher,0.32050145,False
+1158.jpg,Bewick Wren,Rock Wren,0.20821874,False
+1159.jpg,Bewick Wren,Bewick Wren,0.8785201,True
+1160.jpg,Bewick Wren,Bewick Wren,0.91049945,True
+1161.jpg,Bewick Wren,Bewick Wren,0.25874618,True
+1162.jpg,Bewick Wren,Bewick Wren,0.9182717,True
+1163.jpg,Bewick Wren,Swainson Warbler,0.20643446,False
+1164.jpg,Cactus Wren,Cactus Wren,0.6258683,True
+1165.jpg,Cactus Wren,Cactus Wren,0.6956698,True
+1166.jpg,Cactus Wren,Cactus Wren,0.96815556,True
+1167.jpg,Cactus Wren,Cactus Wren,0.26233146,True
+1168.jpg,Cactus Wren,Lincoln Sparrow,0.11098828,False
+1169.jpg,Carolina Wren,Carolina Wren,0.9275565,True
+1170.jpg,Carolina Wren,Carolina Wren,0.40232593,True
+1171.jpg,Carolina Wren,Carolina Wren,0.8725663,True
+1172.jpg,Carolina Wren,Carolina Wren,0.8812922,True
+1173.jpg,Carolina Wren,Carolina Wren,0.473554,True
+1174.jpg,Carolina Wren,Carolina Wren,0.692948,True
+1175.jpg,Carolina Wren,Carolina Wren,0.5162732,True
+1176.jpg,House Wren,House Wren,0.20456368,True
+1177.jpg,House Wren,House Wren,0.2226256,True
+1178.jpg,House Wren,Marsh Wren,0.07196039,False
+1179.jpg,House Wren,House Wren,0.43257117,True
+1180.jpg,House Wren,House Wren,0.45397842,True
+1181.jpg,Marsh Wren,Marsh Wren,0.889921,True
+1182.jpg,Marsh Wren,Marsh Wren,0.8925415,True
+1183.jpg,Marsh Wren,Rock Wren,0.17304993,False
+1184.jpg,Marsh Wren,Marsh Wren,0.7640274,True
+1185.jpg,Marsh Wren,Marsh Wren,0.6544945,True
+1186.jpg,Marsh Wren,Marsh Wren,0.8927383,True
+1187.jpg,Rock Wren,Rock Wren,0.349922,True
+1188.jpg,Rock Wren,Rock Wren,0.24604335,True
+1189.jpg,Rock Wren,Rock Wren,0.43125808,True
+1190.jpg,Rock Wren,Rock Wren,0.76156485,True
+1191.jpg,Rock Wren,Rock Wren,0.16338627,True
+1192.jpg,Winter Wren,Winter Wren,0.91827446,True
+1193.jpg,Winter Wren,Winter Wren,0.7583091,True
+1194.jpg,Winter Wren,Winter Wren,0.7413222,True
+1195.jpg,Winter Wren,Winter Wren,0.47235328,True
+1196.jpg,Winter Wren,Winter Wren,0.9167708,True
+1197.jpg,Winter Wren,Winter Wren,0.73327315,True
+1198.jpg,Winter Wren,Winter Wren,0.51017445,True
+1199.jpg,Common Yellowthroat,Common Yellowthroat,0.8954331,True
+1200.jpg,Common Yellowthroat,Common Yellowthroat,0.12306329,True
+1201.jpg,Common Yellowthroat,Common Yellowthroat,0.7493493,True
+1202.jpg,Common Yellowthroat,Common Yellowthroat,0.9110494,True
+1203.jpg,Common Yellowthroat,Common Yellowthroat,0.8244611,True

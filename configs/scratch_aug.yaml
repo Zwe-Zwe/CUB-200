@@ -1,0 +1,20 @@
+# Track 1, ladder step S2: S1 + data augmentation (used with model scratch_vgg_bn).
+# Exactly ONE change vs scratch_base: augment "none" -> "basic". Every other setting is identical,
+# so the difference in results is caused by the augmentation alone.
+# "basic" = RandomResizedCrop(scale 0.6-1.0), horizontal flip, rotation +-15 deg, colour jitter 0.2,
+# random erasing p=0.25 (see birdcls/data.py). Each epoch therefore shows a different version of every
+# training image, so the network cannot simply memorise the ~19 images per class.
+name: scratch_aug
+description: S1 + basic data augmentation (crop, flip, rotation, colour jitter, random erasing)
+optimizer: sgd
+momentum: 0.9
+lr_schedule: constant
+augment: basic            # <- the only change vs scratch_base
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.0
+dropout: 0.0
+drop_path: 0.0            # unused by scratch models
+patience: 1000            # early stopping off: train all epochs
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 50, lr_backbone: 0.01, lr_head: 0.01, warmup_epochs: 0}

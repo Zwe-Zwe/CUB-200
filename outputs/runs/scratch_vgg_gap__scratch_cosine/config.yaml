@@ -1,0 +1,21 @@
+model: scratch_vgg_gap
+name: scratch_cosine
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 150
+  lr_backbone: 0.01
+  lr_head: 0.01
+  warmup_epochs: 2
+description: S3 + 2-epoch warm-up and cosine LR decay over up to 150 epochs, early
+  stopping (patience 20)
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.0
+dropout: 0.0
+drop_path: 0.0
+patience: 20
+optimizer: sgd
+momentum: 0.9
+lr_schedule: cosine
+augment: basic

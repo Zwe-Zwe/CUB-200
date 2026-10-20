@@ -1,0 +1,23 @@
+model: resnet50.tv2_in1k
+full_train: false
+name: tl_L5_longer_strongaug
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 40
+  lr_backbone: 0.0001
+  lr_head: 0.001
+  warmup_epochs: 1
+description: 'L5 longer training for ResNet-50: L4 (strong aug) with 40 epochs, patience
+  10'
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 10
+optimizer: adamw
+momentum: 0.9
+lr_schedule: cosine
+augment: strong
+freeze_backbone: false

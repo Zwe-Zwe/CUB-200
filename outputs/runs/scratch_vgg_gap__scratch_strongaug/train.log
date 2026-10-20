@@ -1,0 +1,157 @@
+17:49:59  run scratch_vgg_gap__scratch_strongaug
+17:49:59  NVIDIA GeForce RTX 4060 Laptop GPU: 7.58 GiB free of 7.70 GiB
+17:49:59  model scratch_vgg_gap: 2.4 M parameters
+17:49:59  input normalisation: mean (0.485, 0.456, 0.406), std (0.229, 0.224, 0.225) | optimizer sgd, LR schedule cosine, augmentation strong
+17:49:59  phase 1/1: 224px, 150 epochs, batch 32 (= 1 x 32), 120 updates/epoch, lr backbone 0.01 / head 0.01
+17:50:10  phase 1 (224px) epoch 01/150 | train loss 5.322 acc 0.004 | val loss 5.264 acc 0.0124  *best*
+17:50:21  phase 1 (224px) epoch 02/150 | train loss 5.263 acc 0.010 | val loss 5.244 acc 0.0186  *best*
+17:50:31  phase 1 (224px) epoch 03/150 | train loss 5.121 acc 0.012 | val loss 4.996 acc 0.0217  *best*
+17:50:42  phase 1 (224px) epoch 04/150 | train loss 5.026 acc 0.021 | val loss 4.877 acc 0.0259  *best*
+17:50:52  phase 1 (224px) epoch 05/150 | train loss 4.937 acc 0.020 | val loss 4.841 acc 0.0342  *best*
+17:51:02  phase 1 (224px) epoch 06/150 | train loss 4.835 acc 0.031 | val loss 4.779 acc 0.0414  *best*
+17:51:13  phase 1 (224px) epoch 07/150 | train loss 4.802 acc 0.031 | val loss 4.867 acc 0.0487  *best*
+17:51:24  phase 1 (224px) epoch 08/150 | train loss 4.757 acc 0.030 | val loss 4.576 acc 0.0528  *best*
+17:51:34  phase 1 (224px) epoch 09/150 | train loss 4.696 acc 0.040 | val loss 4.591 acc 0.0528
+17:51:44  phase 1 (224px) epoch 10/150 | train loss 4.618 acc 0.048 | val loss 4.547 acc 0.0580  *best*
+17:51:55  phase 1 (224px) epoch 11/150 | train loss 4.563 acc 0.051 | val loss 4.465 acc 0.0725  *best*
+17:52:05  phase 1 (224px) epoch 12/150 | train loss 4.561 acc 0.049 | val loss 4.432 acc 0.0673
+17:52:16  phase 1 (224px) epoch 13/150 | train loss 4.477 acc 0.060 | val loss 4.454 acc 0.0745  *best*
+17:52:26  phase 1 (224px) epoch 14/150 | train loss 4.446 acc 0.064 | val loss 4.432 acc 0.0652
+17:52:37  phase 1 (224px) epoch 15/150 | train loss 4.430 acc 0.064 | val loss 4.441 acc 0.0787  *best*
+17:52:47  phase 1 (224px) epoch 16/150 | train loss 4.386 acc 0.072 | val loss 4.280 acc 0.0911  *best*
+17:52:58  phase 1 (224px) epoch 17/150 | train loss 4.354 acc 0.075 | val loss 4.283 acc 0.0890
+17:53:08  phase 1 (224px) epoch 18/150 | train loss 4.311 acc 0.081 | val loss 4.301 acc 0.0890
+17:53:19  phase 1 (224px) epoch 19/150 | train loss 4.248 acc 0.096 | val loss 4.263 acc 0.0994  *best*
+17:53:29  phase 1 (224px) epoch 20/150 | train loss 4.260 acc 0.092 | val loss 4.117 acc 0.0921
+17:53:40  phase 1 (224px) epoch 21/150 | train loss 4.191 acc 0.096 | val loss 4.175 acc 0.0994
+17:53:50  phase 1 (224px) epoch 22/150 | train loss 4.140 acc 0.108 | val loss 4.072 acc 0.1149  *best*
+17:54:00  phase 1 (224px) epoch 23/150 | train loss 4.086 acc 0.106 | val loss 4.028 acc 0.1149
+17:54:11  phase 1 (224px) epoch 24/150 | train loss 4.116 acc 0.110 | val loss 3.924 acc 0.1387  *best*
+17:54:21  phase 1 (224px) epoch 25/150 | train loss 4.022 acc 0.127 | val loss 4.044 acc 0.1325
+17:54:32  phase 1 (224px) epoch 26/150 | train loss 4.002 acc 0.117 | val loss 4.322 acc 0.1014
+17:54:42  phase 1 (224px) epoch 27/150 | train loss 3.970 acc 0.126 | val loss 4.188 acc 0.1149
+17:54:53  phase 1 (224px) epoch 28/150 | train loss 3.924 acc 0.134 | val loss 4.086 acc 0.1273
+17:55:03  phase 1 (224px) epoch 29/150 | train loss 3.920 acc 0.132 | val loss 3.894 acc 0.1439  *best*
+17:55:14  phase 1 (224px) epoch 30/150 | train loss 3.868 acc 0.147 | val loss 3.773 acc 0.1615  *best*
+17:55:24  phase 1 (224px) epoch 31/150 | train loss 3.792 acc 0.156 | val loss 3.791 acc 0.1553
+17:55:35  phase 1 (224px) epoch 32/150 | train loss 3.809 acc 0.155 | val loss 3.869 acc 0.1480
+17:55:45  phase 1 (224px) epoch 33/150 | train loss 3.750 acc 0.164 | val loss 3.825 acc 0.1542
+17:55:55  phase 1 (224px) epoch 34/150 | train loss 3.756 acc 0.169 | val loss 3.671 acc 0.1791  *best*
+17:56:06  phase 1 (224px) epoch 35/150 | train loss 3.696 acc 0.177 | val loss 3.595 acc 0.1791
+17:56:16  phase 1 (224px) epoch 36/150 | train loss 3.671 acc 0.180 | val loss 3.735 acc 0.1646
+17:56:27  phase 1 (224px) epoch 37/150 | train loss 3.631 acc 0.189 | val loss 3.867 acc 0.1408
+17:56:37  phase 1 (224px) epoch 38/150 | train loss 3.599 acc 0.188 | val loss 3.631 acc 0.1801  *best*
+17:56:48  phase 1 (224px) epoch 39/150 | train loss 3.539 acc 0.201 | val loss 3.690 acc 0.1687
+17:56:58  phase 1 (224px) epoch 40/150 | train loss 3.525 acc 0.210 | val loss 3.640 acc 0.1822  *best*
+17:57:09  phase 1 (224px) epoch 41/150 | train loss 3.459 acc 0.208 | val loss 3.894 acc 0.1749
+17:57:19  phase 1 (224px) epoch 42/150 | train loss 3.440 acc 0.213 | val loss 3.532 acc 0.2267  *best*
+17:57:30  phase 1 (224px) epoch 43/150 | train loss 3.401 acc 0.228 | val loss 3.678 acc 0.2174
+17:57:40  phase 1 (224px) epoch 44/150 | train loss 3.396 acc 0.223 | val loss 3.611 acc 0.2060
+17:57:51  phase 1 (224px) epoch 45/150 | train loss 3.331 acc 0.234 | val loss 3.445 acc 0.1894
+17:58:01  phase 1 (224px) epoch 46/150 | train loss 3.338 acc 0.232 | val loss 3.418 acc 0.2267
+17:58:11  phase 1 (224px) epoch 47/150 | train loss 3.269 acc 0.241 | val loss 3.356 acc 0.2226
+17:58:22  phase 1 (224px) epoch 48/150 | train loss 3.254 acc 0.253 | val loss 3.783 acc 0.2008
+17:58:32  phase 1 (224px) epoch 49/150 | train loss 3.271 acc 0.251 | val loss 3.677 acc 0.2143
+17:58:43  phase 1 (224px) epoch 50/150 | train loss 3.167 acc 0.266 | val loss 3.257 acc 0.2433  *best*
+17:58:53  phase 1 (224px) epoch 51/150 | train loss 3.184 acc 0.256 | val loss 3.424 acc 0.2133
+17:59:04  phase 1 (224px) epoch 52/150 | train loss 3.191 acc 0.252 | val loss 3.315 acc 0.2298
+17:59:14  phase 1 (224px) epoch 53/150 | train loss 3.094 acc 0.284 | val loss 3.455 acc 0.2070
+17:59:25  phase 1 (224px) epoch 54/150 | train loss 3.052 acc 0.289 | val loss 3.234 acc 0.2536  *best*
+17:59:35  phase 1 (224px) epoch 55/150 | train loss 3.040 acc 0.290 | val loss 3.243 acc 0.2453
+17:59:46  phase 1 (224px) epoch 56/150 | train loss 3.034 acc 0.288 | val loss 3.211 acc 0.2495
+17:59:56  phase 1 (224px) epoch 57/150 | train loss 2.973 acc 0.304 | val loss 3.097 acc 0.2557  *best*
+18:00:07  phase 1 (224px) epoch 58/150 | train loss 2.933 acc 0.311 | val loss 3.139 acc 0.2785  *best*
+18:00:17  phase 1 (224px) epoch 59/150 | train loss 2.869 acc 0.322 | val loss 3.167 acc 0.2702
+18:00:27  phase 1 (224px) epoch 60/150 | train loss 2.874 acc 0.321 | val loss 3.257 acc 0.2588
+18:00:38  phase 1 (224px) epoch 61/150 | train loss 2.885 acc 0.333 | val loss 3.007 acc 0.3137  *best*
+18:00:48  phase 1 (224px) epoch 62/150 | train loss 2.838 acc 0.332 | val loss 3.217 acc 0.2650
+18:00:59  phase 1 (224px) epoch 63/150 | train loss 2.823 acc 0.346 | val loss 3.123 acc 0.2692
+18:01:09  phase 1 (224px) epoch 64/150 | train loss 2.819 acc 0.332 | val loss 3.003 acc 0.2795
+18:01:20  phase 1 (224px) epoch 65/150 | train loss 2.719 acc 0.363 | val loss 3.191 acc 0.2495
+18:01:30  phase 1 (224px) epoch 66/150 | train loss 2.750 acc 0.361 | val loss 3.120 acc 0.2867
+18:01:41  phase 1 (224px) epoch 67/150 | train loss 2.720 acc 0.365 | val loss 3.048 acc 0.2899
+18:01:51  phase 1 (224px) epoch 68/150 | train loss 2.644 acc 0.373 | val loss 3.059 acc 0.3012
+18:02:02  phase 1 (224px) epoch 69/150 | train loss 2.619 acc 0.385 | val loss 2.868 acc 0.3240  *best*
+18:02:12  phase 1 (224px) epoch 70/150 | train loss 2.595 acc 0.391 | val loss 2.824 acc 0.3313  *best*
+18:02:23  phase 1 (224px) epoch 71/150 | train loss 2.532 acc 0.394 | val loss 2.738 acc 0.3354  *best*
+18:02:33  phase 1 (224px) epoch 72/150 | train loss 2.570 acc 0.377 | val loss 3.089 acc 0.3043
+18:02:43  phase 1 (224px) epoch 73/150 | train loss 2.498 acc 0.399 | val loss 2.901 acc 0.3188
+18:02:54  phase 1 (224px) epoch 74/150 | train loss 2.459 acc 0.419 | val loss 2.873 acc 0.3126
+18:03:04  phase 1 (224px) epoch 75/150 | train loss 2.469 acc 0.415 | val loss 2.769 acc 0.3437  *best*
+18:03:15  phase 1 (224px) epoch 76/150 | train loss 2.409 acc 0.416 | val loss 3.248 acc 0.2971
+18:03:25  phase 1 (224px) epoch 77/150 | train loss 2.395 acc 0.428 | val loss 2.810 acc 0.3447  *best*
+18:03:36  phase 1 (224px) epoch 78/150 | train loss 2.308 acc 0.449 | val loss 2.833 acc 0.3323
+18:03:46  phase 1 (224px) epoch 79/150 | train loss 2.325 acc 0.461 | val loss 2.822 acc 0.3251
+18:03:57  phase 1 (224px) epoch 80/150 | train loss 2.364 acc 0.453 | val loss 2.884 acc 0.3447
+18:04:07  phase 1 (224px) epoch 81/150 | train loss 2.283 acc 0.462 | val loss 2.664 acc 0.3716  *best*
+18:04:18  phase 1 (224px) epoch 82/150 | train loss 2.265 acc 0.459 | val loss 2.717 acc 0.3520
+18:04:28  phase 1 (224px) epoch 83/150 | train loss 2.275 acc 0.456 | val loss 2.746 acc 0.3416
+18:04:38  phase 1 (224px) epoch 84/150 | train loss 2.245 acc 0.461 | val loss 2.609 acc 0.3830  *best*
+18:04:49  phase 1 (224px) epoch 85/150 | train loss 2.178 acc 0.476 | val loss 2.634 acc 0.3789
+18:04:59  phase 1 (224px) epoch 86/150 | train loss 2.159 acc 0.480 | val loss 2.765 acc 0.3499
+18:05:10  phase 1 (224px) epoch 87/150 | train loss 2.159 acc 0.485 | val loss 2.641 acc 0.3540
+18:05:20  phase 1 (224px) epoch 88/150 | train loss 2.097 acc 0.491 | val loss 2.582 acc 0.3861  *best*
+18:05:31  phase 1 (224px) epoch 89/150 | train loss 2.119 acc 0.501 | val loss 2.607 acc 0.3696
+18:05:41  phase 1 (224px) epoch 90/150 | train loss 2.068 acc 0.514 | val loss 2.624 acc 0.3841
+18:05:52  phase 1 (224px) epoch 91/150 | train loss 2.064 acc 0.511 | val loss 2.536 acc 0.4027  *best*
+18:06:02  phase 1 (224px) epoch 92/150 | train loss 2.008 acc 0.527 | val loss 2.660 acc 0.3551
+18:06:12  phase 1 (224px) epoch 93/150 | train loss 2.014 acc 0.521 | val loss 2.462 acc 0.4203  *best*
+18:06:23  phase 1 (224px) epoch 94/150 | train loss 1.996 acc 0.540 | val loss 2.636 acc 0.3965
+18:06:33  phase 1 (224px) epoch 95/150 | train loss 1.945 acc 0.534 | val loss 2.496 acc 0.3923
+18:06:44  phase 1 (224px) epoch 96/150 | train loss 1.932 acc 0.542 | val loss 2.650 acc 0.3975
+18:06:54  phase 1 (224px) epoch 97/150 | train loss 1.920 acc 0.545 | val loss 2.527 acc 0.4172
+18:07:05  phase 1 (224px) epoch 98/150 | train loss 1.884 acc 0.557 | val loss 2.472 acc 0.4141
+18:07:15  phase 1 (224px) epoch 99/150 | train loss 1.865 acc 0.564 | val loss 2.436 acc 0.4244  *best*
+18:07:26  phase 1 (224px) epoch 100/150 | train loss 1.799 acc 0.564 | val loss 2.546 acc 0.3861
+18:07:36  phase 1 (224px) epoch 101/150 | train loss 1.829 acc 0.576 | val loss 2.474 acc 0.4141
+18:07:46  phase 1 (224px) epoch 102/150 | train loss 1.823 acc 0.574 | val loss 2.472 acc 0.4151
+18:07:57  phase 1 (224px) epoch 103/150 | train loss 1.725 acc 0.605 | val loss 2.466 acc 0.4255  *best*
+18:08:07  phase 1 (224px) epoch 104/150 | train loss 1.756 acc 0.580 | val loss 2.400 acc 0.4451  *best*
+18:08:18  phase 1 (224px) epoch 105/150 | train loss 1.728 acc 0.595 | val loss 2.301 acc 0.4358
+18:08:28  phase 1 (224px) epoch 106/150 | train loss 1.717 acc 0.600 | val loss 2.428 acc 0.4193
+18:08:39  phase 1 (224px) epoch 107/150 | train loss 1.704 acc 0.606 | val loss 2.355 acc 0.4431
+18:08:49  phase 1 (224px) epoch 108/150 | train loss 1.672 acc 0.607 | val loss 2.307 acc 0.4462  *best*
+18:09:00  phase 1 (224px) epoch 109/150 | train loss 1.683 acc 0.613 | val loss 2.367 acc 0.4379
+18:09:10  phase 1 (224px) epoch 110/150 | train loss 1.656 acc 0.620 | val loss 2.290 acc 0.4534  *best*
+18:09:20  phase 1 (224px) epoch 111/150 | train loss 1.656 acc 0.617 | val loss 2.340 acc 0.4513
+18:09:31  phase 1 (224px) epoch 112/150 | train loss 1.593 acc 0.636 | val loss 2.286 acc 0.4524
+18:09:41  phase 1 (224px) epoch 113/150 | train loss 1.603 acc 0.626 | val loss 2.287 acc 0.4648  *best*
+18:09:52  phase 1 (224px) epoch 114/150 | train loss 1.595 acc 0.630 | val loss 2.278 acc 0.4700  *best*
+18:10:02  phase 1 (224px) epoch 115/150 | train loss 1.553 acc 0.643 | val loss 2.281 acc 0.4607
+18:10:13  phase 1 (224px) epoch 116/150 | train loss 1.563 acc 0.641 | val loss 2.261 acc 0.4545
+18:10:23  phase 1 (224px) epoch 117/150 | train loss 1.498 acc 0.662 | val loss 2.213 acc 0.4720  *best*
+18:10:34  phase 1 (224px) epoch 118/150 | train loss 1.523 acc 0.661 | val loss 2.212 acc 0.4752  *best*
+18:10:44  phase 1 (224px) epoch 119/150 | train loss 1.507 acc 0.656 | val loss 2.234 acc 0.4689
+18:10:55  phase 1 (224px) epoch 120/150 | train loss 1.453 acc 0.666 | val loss 2.239 acc 0.4648
+18:11:05  phase 1 (224px) epoch 121/150 | train loss 1.480 acc 0.662 | val loss 2.235 acc 0.4700
+18:11:16  phase 1 (224px) epoch 122/150 | train loss 1.476 acc 0.667 | val loss 2.260 acc 0.4534
+18:11:26  phase 1 (224px) epoch 123/150 | train loss 1.471 acc 0.667 | val loss 2.186 acc 0.4762  *best*
+18:11:36  phase 1 (224px) epoch 124/150 | train loss 1.396 acc 0.684 | val loss 2.197 acc 0.4731
+18:11:47  phase 1 (224px) epoch 125/150 | train loss 1.410 acc 0.683 | val loss 2.213 acc 0.4679
+18:11:57  phase 1 (224px) epoch 126/150 | train loss 1.386 acc 0.680 | val loss 2.183 acc 0.4772  *best*
+18:12:08  phase 1 (224px) epoch 127/150 | train loss 1.411 acc 0.680 | val loss 2.181 acc 0.4855  *best*
+18:12:19  phase 1 (224px) epoch 128/150 | train loss 1.394 acc 0.687 | val loss 2.175 acc 0.4814
+18:12:29  phase 1 (224px) epoch 129/150 | train loss 1.396 acc 0.682 | val loss 2.174 acc 0.4772
+18:12:40  phase 1 (224px) epoch 130/150 | train loss 1.371 acc 0.689 | val loss 2.154 acc 0.4762
+18:12:50  phase 1 (224px) epoch 131/150 | train loss 1.410 acc 0.686 | val loss 2.166 acc 0.4845
+18:13:01  phase 1 (224px) epoch 132/150 | train loss 1.357 acc 0.696 | val loss 2.180 acc 0.4886  *best*
+18:13:11  phase 1 (224px) epoch 133/150 | train loss 1.360 acc 0.702 | val loss 2.152 acc 0.4824
+18:13:22  phase 1 (224px) epoch 134/150 | train loss 1.353 acc 0.702 | val loss 2.144 acc 0.4907  *best*
+18:13:32  phase 1 (224px) epoch 135/150 | train loss 1.364 acc 0.692 | val loss 2.160 acc 0.4990  *best*
+18:13:43  phase 1 (224px) epoch 136/150 | train loss 1.341 acc 0.703 | val loss 2.141 acc 0.4834
+18:13:53  phase 1 (224px) epoch 137/150 | train loss 1.393 acc 0.688 | val loss 2.157 acc 0.4855
+18:14:04  phase 1 (224px) epoch 138/150 | train loss 1.359 acc 0.710 | val loss 2.163 acc 0.4834
+18:14:14  phase 1 (224px) epoch 139/150 | train loss 1.345 acc 0.702 | val loss 2.159 acc 0.4834
+18:14:25  phase 1 (224px) epoch 140/150 | train loss 1.299 acc 0.714 | val loss 2.148 acc 0.4834
+18:14:36  phase 1 (224px) epoch 141/150 | train loss 1.305 acc 0.712 | val loss 2.152 acc 0.4886
+18:14:46  phase 1 (224px) epoch 142/150 | train loss 1.300 acc 0.709 | val loss 2.145 acc 0.4928
+18:14:57  phase 1 (224px) epoch 143/150 | train loss 1.311 acc 0.719 | val loss 2.146 acc 0.4876
+18:15:07  phase 1 (224px) epoch 144/150 | train loss 1.322 acc 0.706 | val loss 2.135 acc 0.4845
+18:15:18  phase 1 (224px) epoch 145/150 | train loss 1.322 acc 0.704 | val loss 2.137 acc 0.4886
+18:15:29  phase 1 (224px) epoch 146/150 | train loss 1.279 acc 0.721 | val loss 2.138 acc 0.4917
+18:15:39  phase 1 (224px) epoch 147/150 | train loss 1.290 acc 0.716 | val loss 2.154 acc 0.4824
+18:15:50  phase 1 (224px) epoch 148/150 | train loss 1.270 acc 0.717 | val loss 2.135 acc 0.4886
+18:16:00  phase 1 (224px) epoch 149/150 | train loss 1.333 acc 0.699 | val loss 2.138 acc 0.4917
+18:16:11  phase 1 (224px) epoch 150/150 | train loss 1.270 acc 0.718 | val loss 2.148 acc 0.4886
+18:16:11  best val acc 0.4990 at epoch 135 (224px) | 26.2 min
+18:16:11  saved to /mnt/hyhyData/Swinburne/Applied Machine Learning/Assignment/outputs/runs/scratch_vgg_gap__scratch_strongaug

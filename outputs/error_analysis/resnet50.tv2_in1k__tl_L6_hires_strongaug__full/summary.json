@@ -1,0 +1,16 @@
+{
+ "run": "resnet50.tv2_in1k__tl_L6_hires_strongaug__full",
+ "test_top1": 0.8646179401993356,
+ "test_avg_per_class": 0.8612142857142857,
+ "test_top5": 0.9676079750061035,
+ "n_test": 1204,
+ "n_errors": 163,
+ "errors_within_same_bird_group": 80,
+ "share_errors_within_same_bird_group": 0.49079754601226994,
+ "classes_100pct": 98,
+ "classes_below_50pct": 6,
+ "classes_0pct": 0,
+ "median_class_acc": 0.8660714285714286,
+ "mean_conf_correct": 0.737655758857727,
+ "mean_conf_wrong": 0.35051941871643066
+}

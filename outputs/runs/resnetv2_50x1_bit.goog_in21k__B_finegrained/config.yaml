@@ -1,0 +1,22 @@
+model: resnetv2_50x1_bit.goog_in21k
+name: B_finegrained
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 15
+  lr_backbone: 0.0001
+  lr_head: 0.001
+  warmup_epochs: 1
+- img_size: 448
+  batch_size: 16
+  epochs: 5
+  lr_backbone: 2.0e-05
+  lr_head: 0.0002
+  warmup_epochs: 0
+description: Progressive resizing 224 -> 448 px + CutMix
+cutmix_prob: 0.5
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 6

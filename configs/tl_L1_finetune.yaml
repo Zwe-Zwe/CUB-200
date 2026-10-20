@@ -1,0 +1,19 @@
+# Track 2 ladder, step L1: full fine-tuning.
+# ONE change vs tl_L0_probe: freeze_backbone true -> false. All layers are now trained, still with the SAME single
+# constant LR (1e-3) for the pretrained backbone and the new head (a deliberately naive choice; L2 splits it).
+# Why: L0 showed the frozen ImageNet features are the ceiling (val curves flatten at 66% / 76%); letting the
+# backbone adapt to birds should lift that ceiling. Risk: 1e-3 is large for pretrained weights and may damage them.
+name: tl_L1_finetune
+description: "L1 full fine-tuning: unfreeze the backbone, same single LR as L0 (AdamW 1e-3 constant for all layers, 20 epochs)"
+freeze_backbone: false     # <- the only change vs tl_L0_probe (was: true)
+optimizer: adamw
+lr_schedule: constant
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.01        # AdamW default
+dropout: 0.0
+drop_path: 0.0
+patience: 6
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 20, lr_backbone: 1.0e-3, lr_head: 1.0e-3, warmup_epochs: 0}

@@ -1,0 +1,20 @@
+# Track 2 ladder, step L5 (ConvNeXt-Tiny branch): longer training on the L3 recipe (basic augmentation).
+# Change vs the model's best recipe so far: training length only: epochs 20 -> 40 (the warm-up + cosine schedule
+# stretches over all 40), early-stopping patience 6 -> 10.
+# Why: ResNet-50 peaked at its LAST epoch in both L3 and L4 (best epoch 20 of 20, val loss still falling), i.e. it is
+# under-trained, especially with strong augmentation (harder data). ConvNeXt-Tiny is run too for symmetry; its L3 peak was
+# epoch 17, so less gain is expected.
+name: tl_L5_longer
+description: "L5 longer training for ConvNeXt-Tiny: L3 (basic aug) with 40 epochs, patience 10"
+freeze_backbone: false
+optimizer: adamw
+lr_schedule: cosine
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 10              # <- was 6
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 40, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}   # <- was 20 epochs

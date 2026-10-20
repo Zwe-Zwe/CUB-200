@@ -1,0 +1,22 @@
+# Track 2 (transfer-learning ladder), step L0: linear probe / feature extraction.
+# Used for both models: resnet50.tv2_in1k and convnext_tiny (both ImageNet-1k pretrained).
+# The pretrained backbone is FROZEN (weights and BatchNorm statistics); only a new 200-class linear layer
+# is trained on top of the fixed ImageNet features. This measures how good the pretrained features are
+# on birds before any adaptation, and is the naive starting point of the ladder.
+# Deliberately plain "default" settings, which later steps change one at a time:
+#   AdamW at its default weight decay (0.01), one constant LR of 1e-3, no warm-up / schedule,
+#   basic augmentation, no label smoothing, no dropout, 20 epochs (early stopping patience 6).
+name: tl_L0_probe
+description: "L0 linear probe: frozen pretrained backbone, train only a new linear head (AdamW 1e-3 constant, 20 epochs)"
+freeze_backbone: true
+optimizer: adamw
+lr_schedule: constant
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.01        # AdamW default
+dropout: 0.0
+drop_path: 0.0
+patience: 6
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 20, lr_backbone: 1.0e-3, lr_head: 1.0e-3, warmup_epochs: 0}

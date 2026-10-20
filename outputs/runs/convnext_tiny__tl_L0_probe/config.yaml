@@ -1,0 +1,23 @@
+model: convnext_tiny
+full_train: false
+name: tl_L0_probe
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 20
+  lr_backbone: 0.001
+  lr_head: 0.001
+  warmup_epochs: 0
+description: 'L0 linear probe: frozen pretrained backbone, train only a new linear
+  head (AdamW 1e-3 constant, 20 epochs)'
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.01
+dropout: 0.0
+drop_path: 0.0
+patience: 6
+optimizer: adamw
+momentum: 0.9
+lr_schedule: constant
+augment: basic
+freeze_backbone: true

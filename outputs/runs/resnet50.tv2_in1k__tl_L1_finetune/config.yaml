@@ -1,0 +1,23 @@
+model: resnet50.tv2_in1k
+full_train: false
+name: tl_L1_finetune
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 20
+  lr_backbone: 0.001
+  lr_head: 0.001
+  warmup_epochs: 0
+description: 'L1 full fine-tuning: unfreeze the backbone, same single LR as L0 (AdamW
+  1e-3 constant for all layers, 20 epochs)'
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.01
+dropout: 0.0
+drop_path: 0.0
+patience: 6
+optimizer: adamw
+momentum: 0.9
+lr_schedule: constant
+augment: basic
+freeze_backbone: false

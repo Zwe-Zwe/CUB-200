@@ -1,0 +1,16 @@
+model: resnet50.tv2_in1k
+name: A_standard
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 20
+  lr_backbone: 0.0001
+  lr_head: 0.001
+  warmup_epochs: 1
+description: Standard fine-tune, 224 px throughout, no CutMix
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 6

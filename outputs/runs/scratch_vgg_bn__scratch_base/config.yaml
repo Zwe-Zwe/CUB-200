@@ -1,0 +1,21 @@
+model: scratch_vgg_bn
+name: scratch_base
+phases:
+- img_size: 224
+  batch_size: 32
+  epochs: 50
+  lr_backbone: 0.01
+  lr_head: 0.01
+  warmup_epochs: 0
+description: From-scratch baseline - no augmentation, no regularisation, SGD at constant
+  LR
+cutmix_prob: 0.0
+label_smoothing: 0.0
+weight_decay: 0.0
+dropout: 0.0
+drop_path: 0.0
+patience: 1000
+optimizer: sgd
+momentum: 0.9
+lr_schedule: constant
+augment: none

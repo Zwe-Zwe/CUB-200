@@ -1,0 +1,21 @@
+# Track 2 ladder, step L8 (ConvNeXt-Tiny branch): architecture-specific tuning, layer-wise LR decay 0.8.
+# Change vs tl_L6_hires: layer_decay 1.0 -> 0.8. The backbone is split into 5 depth levels (stem, stages 1-4; birdcls/
+# models.py DEPTH_LEVELS); the top stage keeps lr_backbone and each level below gets 0.8x the LR of the level above
+# (stem: 0.41x). This is part of ConvNeXt's published fine-tuning recipe: early layers hold generic features
+# that should change least. Two decay values are tried; the one with the best VALIDATION accuracy is compared with L6.
+name: tl_L8_llrd_080
+description: "L8 ConvNeXt-Tiny: L6 with layer-wise LR decay 0.8 (stem 0.41x ... top stage 1x backbone LR)"
+freeze_backbone: false
+layer_decay: 0.8          # <- was 1.0 (off)
+optimizer: adamw
+lr_schedule: cosine
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 10
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 30, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}
+  - {img_size: 448, batch_size: 16, epochs: 10, lr_backbone: 2.0e-5, lr_head: 2.0e-4, warmup_epochs: 0}

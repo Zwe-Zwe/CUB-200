@@ -1,0 +1,49 @@
+18:24:22  run resnet50.tv2_in1k__tl_L8_sgd_3e-3
+18:24:22  NVIDIA GeForce RTX 4060 Laptop GPU: 7.49 GiB free of 7.70 GiB
+18:24:23  model resnet50.tv2_in1k: 23.9 M parameters
+18:24:23  input normalisation: mean (0.485, 0.456, 0.406), std (0.229, 0.224, 0.225) | optimizer sgd, LR schedule cosine, augmentation strong
+18:24:23  trainable parameters: 23.918 M
+18:24:23  phase 1/2: 224px, 30 epochs, batch 32 (= 1 x 32), 120 updates/epoch, lr backbone 0.003 / head 0.03
+18:24:36  phase 1 (224px) epoch 01/30 | train loss 5.179 acc 0.037 | val loss 4.294 acc 0.1998  *best*
+18:24:50  phase 1 (224px) epoch 02/30 | train loss 3.969 acc 0.207 | val loss 2.167 acc 0.4741  *best*
+18:25:03  phase 1 (224px) epoch 03/30 | train loss 3.032 acc 0.394 | val loss 1.544 acc 0.6335  *best*
+18:25:17  phase 1 (224px) epoch 04/30 | train loss 2.596 acc 0.513 | val loss 1.324 acc 0.6749  *best*
+18:25:30  phase 1 (224px) epoch 05/30 | train loss 2.364 acc 0.590 | val loss 1.189 acc 0.7029  *best*
+18:25:44  phase 1 (224px) epoch 06/30 | train loss 2.196 acc 0.650 | val loss 1.073 acc 0.7050  *best*
+18:25:57  phase 1 (224px) epoch 07/30 | train loss 2.034 acc 0.690 | val loss 1.031 acc 0.7319  *best*
+18:26:11  phase 1 (224px) epoch 08/30 | train loss 1.941 acc 0.723 | val loss 0.992 acc 0.7412  *best*
+18:26:24  phase 1 (224px) epoch 09/30 | train loss 1.892 acc 0.738 | val loss 0.958 acc 0.7619  *best*
+18:26:38  phase 1 (224px) epoch 10/30 | train loss 1.771 acc 0.786 | val loss 0.921 acc 0.7567
+18:26:51  phase 1 (224px) epoch 11/30 | train loss 1.736 acc 0.791 | val loss 0.885 acc 0.7660  *best*
+18:27:05  phase 1 (224px) epoch 12/30 | train loss 1.719 acc 0.796 | val loss 0.879 acc 0.7909  *best*
+18:27:18  phase 1 (224px) epoch 13/30 | train loss 1.670 acc 0.814 | val loss 0.867 acc 0.7971  *best*
+18:27:32  phase 1 (224px) epoch 14/30 | train loss 1.617 acc 0.829 | val loss 0.872 acc 0.7816
+18:27:45  phase 1 (224px) epoch 15/30 | train loss 1.637 acc 0.824 | val loss 0.862 acc 0.7919
+18:27:59  phase 1 (224px) epoch 16/30 | train loss 1.587 acc 0.843 | val loss 0.846 acc 0.7878
+18:28:12  phase 1 (224px) epoch 17/30 | train loss 1.571 acc 0.847 | val loss 0.878 acc 0.7888
+18:28:26  phase 1 (224px) epoch 18/30 | train loss 1.551 acc 0.851 | val loss 0.854 acc 0.8023  *best*
+18:28:39  phase 1 (224px) epoch 19/30 | train loss 1.507 acc 0.866 | val loss 0.872 acc 0.8012
+18:28:53  phase 1 (224px) epoch 20/30 | train loss 1.502 acc 0.867 | val loss 0.855 acc 0.8023
+18:29:06  phase 1 (224px) epoch 21/30 | train loss 1.492 acc 0.871 | val loss 0.849 acc 0.8054  *best*
+18:29:20  phase 1 (224px) epoch 22/30 | train loss 1.515 acc 0.861 | val loss 0.833 acc 0.8157  *best*
+18:29:33  phase 1 (224px) epoch 23/30 | train loss 1.455 acc 0.885 | val loss 0.853 acc 0.8095
+18:29:47  phase 1 (224px) epoch 24/30 | train loss 1.439 acc 0.886 | val loss 0.851 acc 0.8137
+18:30:00  phase 1 (224px) epoch 25/30 | train loss 1.465 acc 0.881 | val loss 0.841 acc 0.8157
+18:30:13  phase 1 (224px) epoch 26/30 | train loss 1.431 acc 0.887 | val loss 0.843 acc 0.8126
+18:30:27  phase 1 (224px) epoch 27/30 | train loss 1.447 acc 0.887 | val loss 0.844 acc 0.8126
+18:30:40  phase 1 (224px) epoch 28/30 | train loss 1.436 acc 0.888 | val loss 0.831 acc 0.8168  *best*
+18:30:54  phase 1 (224px) epoch 29/30 | train loss 1.427 acc 0.891 | val loss 0.833 acc 0.8219  *best*
+18:31:07  phase 1 (224px) epoch 30/30 | train loss 1.421 acc 0.892 | val loss 0.826 acc 0.8178
+18:31:07  phase 2/2: 448px, 10 epochs, batch 16 (= 1 x 16), 241 updates/epoch, lr backbone 0.0006 / head 0.006
+18:31:58  phase 2 (448px) epoch 01/10 | train loss 2.036 acc 0.751 | val loss 0.845 acc 0.8095
+18:32:50  phase 2 (448px) epoch 02/10 | train loss 1.830 acc 0.772 | val loss 0.785 acc 0.8209
+18:33:41  phase 2 (448px) epoch 03/10 | train loss 1.716 acc 0.814 | val loss 0.786 acc 0.8147
+18:34:32  phase 2 (448px) epoch 04/10 | train loss 1.699 acc 0.820 | val loss 0.772 acc 0.8261  *best*
+18:35:23  phase 2 (448px) epoch 05/10 | train loss 1.673 acc 0.826 | val loss 0.763 acc 0.8271  *best*
+18:36:14  phase 2 (448px) epoch 06/10 | train loss 1.612 acc 0.844 | val loss 0.757 acc 0.8271
+18:37:05  phase 2 (448px) epoch 07/10 | train loss 1.629 acc 0.844 | val loss 0.752 acc 0.8251
+18:37:57  phase 2 (448px) epoch 08/10 | train loss 1.575 acc 0.855 | val loss 0.764 acc 0.8230
+18:38:48  phase 2 (448px) epoch 09/10 | train loss 1.580 acc 0.858 | val loss 0.759 acc 0.8302  *best*
+18:39:39  phase 2 (448px) epoch 10/10 | train loss 1.560 acc 0.859 | val loss 0.758 acc 0.8261
+18:39:39  best val acc 0.8302 at epoch 39 (448px) | 15.3 min
+18:39:39  saved to /mnt/hyhyData/Swinburne/Applied Machine Learning/Assignment/outputs/runs/resnet50.tv2_in1k__tl_L8_sgd_3e-3

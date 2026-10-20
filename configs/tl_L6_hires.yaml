@@ -1,0 +1,25 @@
+# Track 2 ladder, step L6 (ConvNeXt-Tiny branch): higher resolution by progressive resizing.
+# Change vs tl_L5_longer (L5): the input resolution. The 40-epoch budget is split into 30 epochs at 224 px and
+# 10 epochs at 448 px (448 px images, eval resize 512 + centre crop 448), continuing from the best 224 px weights with a
+# lower LR (backbone 2e-5 / head 2e-4, fresh cosine, no warm-up). Everything else (augmentation, regularisation,
+# optimiser, patience) as in L5.
+# Why: at 224 px both models have plateaued under recipe changes (L3 to L5); fine-grained cues (eye rings, wing bars,
+# bill shape) are small, and 448 px gives the network 4x more pixels to see them (Track 1 S7 lesson: resolution matters).
+name: tl_L6_hires
+description: "L6 resolution for ConvNeXt-Tiny: L5 (basic aug) with 30 epochs at 224 px + 10 epochs at 448 px"
+freeze_backbone: false
+optimizer: adamw
+lr_schedule: cosine
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.1
+weight_decay: 0.05
+dropout: 0.3
+drop_path: 0.1
+patience: 10
+phases:
+  # same 40-epoch budget as L5, split into two phases (progressive resizing):
+  - {img_size: 224, batch_size: 32, epochs: 30, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}
+  # continue from the best 224 px weights at 448 px with a 5x lower LR and a fresh cosine cycle; batch 16 fits in
+  # memory for both models without gradient accumulation (ResNet-50 448 px bs 16 = 3.0 GiB)
+  - {img_size: 448, batch_size: 16, epochs: 10, lr_backbone: 2.0e-5, lr_head: 2.0e-4, warmup_epochs: 0}

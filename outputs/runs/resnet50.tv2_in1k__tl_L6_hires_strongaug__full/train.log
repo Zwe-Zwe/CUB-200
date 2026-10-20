@@ -1,0 +1,50 @@
+14:53:49  run resnet50.tv2_in1k__tl_L6_hires_strongaug__full
+14:53:49  NVIDIA GeForce RTX 4060 Laptop GPU: 7.50 GiB free of 7.70 GiB
+14:53:49  FULL-TRAIN: training on train + val = 4829 images; no validation, no early stopping, final epoch kept
+14:53:50  model resnet50.tv2_in1k: 23.9 M parameters
+14:53:50  input normalisation: mean (0.485, 0.456, 0.406), std (0.229, 0.224, 0.225) | optimizer adamw, LR schedule cosine, augmentation strong
+14:53:50  trainable parameters: 23.918 M
+14:53:50  phase 1/2: 224px, 30 epochs, batch 32 (= 1 x 32), 150 updates/epoch, lr backbone 0.0001 / head 0.001
+14:54:06  phase 1 (224px) epoch 01/30 | train loss 4.939 acc 0.061 | val n/a (full-train)
+14:54:22  phase 1 (224px) epoch 02/30 | train loss 3.168 acc 0.360 | val n/a (full-train)
+14:54:37  phase 1 (224px) epoch 03/30 | train loss 2.488 acc 0.561 | val n/a (full-train)
+14:54:53  phase 1 (224px) epoch 04/30 | train loss 2.214 acc 0.635 | val n/a (full-train)
+14:55:08  phase 1 (224px) epoch 05/30 | train loss 2.034 acc 0.702 | val n/a (full-train)
+14:55:24  phase 1 (224px) epoch 06/30 | train loss 1.915 acc 0.739 | val n/a (full-train)
+14:55:39  phase 1 (224px) epoch 07/30 | train loss 1.803 acc 0.774 | val n/a (full-train)
+14:55:55  phase 1 (224px) epoch 08/30 | train loss 1.725 acc 0.797 | val n/a (full-train)
+14:56:11  phase 1 (224px) epoch 09/30 | train loss 1.674 acc 0.812 | val n/a (full-train)
+14:56:26  phase 1 (224px) epoch 10/30 | train loss 1.625 acc 0.829 | val n/a (full-train)
+14:56:42  phase 1 (224px) epoch 11/30 | train loss 1.583 acc 0.841 | val n/a (full-train)
+14:56:58  phase 1 (224px) epoch 12/30 | train loss 1.549 acc 0.853 | val n/a (full-train)
+14:57:13  phase 1 (224px) epoch 13/30 | train loss 1.519 acc 0.858 | val n/a (full-train)
+14:57:29  phase 1 (224px) epoch 14/30 | train loss 1.496 acc 0.869 | val n/a (full-train)
+14:57:44  phase 1 (224px) epoch 15/30 | train loss 1.433 acc 0.887 | val n/a (full-train)
+14:58:00  phase 1 (224px) epoch 16/30 | train loss 1.418 acc 0.889 | val n/a (full-train)
+14:58:15  phase 1 (224px) epoch 17/30 | train loss 1.406 acc 0.891 | val n/a (full-train)
+14:58:31  phase 1 (224px) epoch 18/30 | train loss 1.385 acc 0.899 | val n/a (full-train)
+14:58:46  phase 1 (224px) epoch 19/30 | train loss 1.381 acc 0.901 | val n/a (full-train)
+14:59:02  phase 1 (224px) epoch 20/30 | train loss 1.349 acc 0.907 | val n/a (full-train)
+14:59:18  phase 1 (224px) epoch 21/30 | train loss 1.340 acc 0.912 | val n/a (full-train)
+14:59:33  phase 1 (224px) epoch 22/30 | train loss 1.341 acc 0.915 | val n/a (full-train)
+14:59:49  phase 1 (224px) epoch 23/30 | train loss 1.319 acc 0.909 | val n/a (full-train)
+15:00:05  phase 1 (224px) epoch 24/30 | train loss 1.301 acc 0.924 | val n/a (full-train)
+15:00:21  phase 1 (224px) epoch 25/30 | train loss 1.289 acc 0.928 | val n/a (full-train)
+15:00:37  phase 1 (224px) epoch 26/30 | train loss 1.308 acc 0.919 | val n/a (full-train)
+15:00:52  phase 1 (224px) epoch 27/30 | train loss 1.290 acc 0.924 | val n/a (full-train)
+15:01:08  phase 1 (224px) epoch 28/30 | train loss 1.292 acc 0.926 | val n/a (full-train)
+15:01:24  phase 1 (224px) epoch 29/30 | train loss 1.273 acc 0.931 | val n/a (full-train)
+15:01:40  phase 1 (224px) epoch 30/30 | train loss 1.294 acc 0.925 | val n/a (full-train)
+15:01:40  phase 2/2: 448px, 10 epochs, batch 16 (= 1 x 16), 301 updates/epoch, lr backbone 2e-05 / head 0.0002
+15:02:40  phase 2 (448px) epoch 01/10 | train loss 1.827 acc 0.808 | val n/a (full-train)
+15:03:41  phase 2 (448px) epoch 02/10 | train loss 1.582 acc 0.854 | val n/a (full-train)
+15:04:42  phase 2 (448px) epoch 03/10 | train loss 1.523 acc 0.864 | val n/a (full-train)
+15:05:43  phase 2 (448px) epoch 04/10 | train loss 1.504 acc 0.873 | val n/a (full-train)
+15:06:44  phase 2 (448px) epoch 05/10 | train loss 1.467 acc 0.885 | val n/a (full-train)
+15:07:45  phase 2 (448px) epoch 06/10 | train loss 1.455 acc 0.889 | val n/a (full-train)
+15:08:46  phase 2 (448px) epoch 07/10 | train loss 1.440 acc 0.896 | val n/a (full-train)
+15:09:47  phase 2 (448px) epoch 08/10 | train loss 1.428 acc 0.902 | val n/a (full-train)
+15:10:49  phase 2 (448px) epoch 09/10 | train loss 1.412 acc 0.900 | val n/a (full-train)
+15:11:50  phase 2 (448px) epoch 10/10 | train loss 1.411 acc 0.900 | val n/a (full-train)
+15:11:50  full-train: kept the final epoch (40) | 18.0 min
+15:11:51  saved to /mnt/hyhyData/Swinburne/Applied Machine Learning/Assignment/outputs/runs/resnet50.tv2_in1k__tl_L6_hires_strongaug__full

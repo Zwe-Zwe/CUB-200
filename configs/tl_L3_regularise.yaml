@@ -1,0 +1,23 @@
+# Track 2 ladder, step L3: regularisation package.
+# Change vs tl_L2_discriminative: four standard regularisers, added together as one step:
+#   label_smoothing 0 -> 0.1   targets 90% true class + 10% spread: discourages 100%-confident memorisation
+#   dropout         0 -> 0.3   randomly zeroes 30% of the features entering the new head during training
+#   drop_path       0 -> 0.1   stochastic depth: randomly skips residual blocks during training
+#   weight_decay 0.01 -> 0.05  stronger AdamW decoupled weight decay (ConvNeXt fine-tuning standard)
+# Why: L2 reaches ~99.9% clean train accuracy (gap 19.8 pp ResNet-50, 13.2 pp ConvNeXt-Tiny) and stops improving
+# early, so overfitting, not training length, is the limit.
+# Note: these settings are identical to configs/A_standard.yaml (EXP-01/03); L3 re-runs them with the current code.
+name: tl_L3_regularise
+description: "L3 regularisation: L2 + label smoothing 0.1, dropout 0.3, stochastic depth 0.1, weight decay 0.05"
+freeze_backbone: false
+optimizer: adamw
+lr_schedule: cosine
+augment: basic
+cutmix_prob: 0.0
+label_smoothing: 0.1      # <- was 0.0
+weight_decay: 0.05        # <- was 0.01
+dropout: 0.3              # <- was 0.0
+drop_path: 0.1            # <- was 0.0
+patience: 6
+phases:
+  - {img_size: 224, batch_size: 32, epochs: 20, lr_backbone: 1.0e-4, lr_head: 1.0e-3, warmup_epochs: 1}

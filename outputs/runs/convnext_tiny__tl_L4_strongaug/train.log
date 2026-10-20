@@ -1,0 +1,25 @@
+13:51:37  run convnext_tiny__tl_L4_strongaug
+13:51:37  NVIDIA GeForce RTX 4060 Laptop GPU: 7.50 GiB free of 7.70 GiB
+13:51:38  model convnext_tiny: 28.0 M parameters
+13:51:38  input normalisation: mean (0.485, 0.456, 0.406), std (0.229, 0.224, 0.225) | optimizer adamw, LR schedule cosine, augmentation strong
+13:51:38  trainable parameters: 27.974 M
+13:51:38  phase 1/1: 224px, 20 epochs, batch 32 (= 1 x 32), 120 updates/epoch, lr backbone 0.0001 / head 0.001
+13:51:54  phase 1 (224px) epoch 01/20 | train loss 4.833 acc 0.097 | val loss 3.021 acc 0.3882  *best*
+13:52:09  phase 1 (224px) epoch 02/20 | train loss 2.749 acc 0.490 | val loss 1.288 acc 0.6946  *best*
+13:52:24  phase 1 (224px) epoch 03/20 | train loss 1.945 acc 0.717 | val loss 0.929 acc 0.7826  *best*
+13:52:38  phase 1 (224px) epoch 04/20 | train loss 1.656 acc 0.813 | val loss 0.780 acc 0.8085  *best*
+13:52:53  phase 1 (224px) epoch 05/20 | train loss 1.519 acc 0.853 | val loss 0.733 acc 0.8333  *best*
+13:53:08  phase 1 (224px) epoch 06/20 | train loss 1.418 acc 0.890 | val loss 0.698 acc 0.8437  *best*
+13:53:23  phase 1 (224px) epoch 07/20 | train loss 1.360 acc 0.907 | val loss 0.733 acc 0.8344
+13:53:38  phase 1 (224px) epoch 08/20 | train loss 1.338 acc 0.908 | val loss 0.711 acc 0.8509  *best*
+13:53:52  phase 1 (224px) epoch 09/20 | train loss 1.279 acc 0.927 | val loss 0.742 acc 0.8416
+13:54:07  phase 1 (224px) epoch 10/20 | train loss 1.257 acc 0.933 | val loss 0.711 acc 0.8654  *best*
+13:54:22  phase 1 (224px) epoch 11/20 | train loss 1.251 acc 0.929 | val loss 0.708 acc 0.8571
+13:54:37  phase 1 (224px) epoch 12/20 | train loss 1.191 acc 0.951 | val loss 0.745 acc 0.8509
+13:54:51  phase 1 (224px) epoch 13/20 | train loss 1.191 acc 0.952 | val loss 0.732 acc 0.8613
+13:55:06  phase 1 (224px) epoch 14/20 | train loss 1.170 acc 0.955 | val loss 0.756 acc 0.8602
+13:55:21  phase 1 (224px) epoch 15/20 | train loss 1.163 acc 0.955 | val loss 0.771 acc 0.8592
+13:55:36  phase 1 (224px) epoch 16/20 | train loss 1.151 acc 0.960 | val loss 0.776 acc 0.8623
+13:55:36  early stopping in phase 1
+13:55:36  best val acc 0.8654 at epoch 10 (224px) | 4.0 min
+13:55:36  saved to /mnt/hyhyData/Swinburne/Applied Machine Learning/Assignment/outputs/runs/convnext_tiny__tl_L4_strongaug

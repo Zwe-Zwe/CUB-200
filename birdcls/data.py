@@ -1,4 +1,8 @@
-"""Data: annotation files, species names, stratified split, transforms and DataLoaders."""
+"""Data: annotation files, species names, stratified split, transforms and DataLoaders.
+
+Pipeline: train.txt / test.txt (file name + label) -> DataFrames with the full image path -> a stratified
+80/20 train / validation split -> PyTorch DataLoaders that read, augment and normalise the images.
+"""
 import os
 import re
 from dataclasses import dataclass
@@ -67,15 +71,21 @@ class BirdData:
 
 
 def load_data(seed=C.SEED):
+    """Read both annotation files, find every image on disk and split train.txt into train / validation.
+
+    The test set is kept completely separate: it is only used by evaluate.py for the final numbers.
+    The same seed always gives the same split, so every experiment uses exactly the same images.
+    """
     full = read_annotations(C.TRAIN_TXT)
     test = read_annotations(C.TEST_TXT)
+    # attach the full path of every image (NaN if a file listed in the .txt is missing on disk)
     full["path"] = full.file.map(index_images(C.TRAIN_IMG_DIR))
     test["path"] = test.file.map(index_images(C.TEST_IMG_DIR))
     assert full.path.notna().all(), f"Some training images are missing from {C.TRAIN_IMG_DIR}"
     assert test.path.notna().all(), f"Some test images are missing from {C.TEST_IMG_DIR}"
 
-    num_classes = int(full.label.max()) + 1
-    class_names = class_names_from(full, num_classes)
+    num_classes = int(full.label.max()) + 1          # labels are 0 .. 199
+    class_names = class_names_from(full, num_classes)  # species names, read from the file names
 
     # Stratified split so every class appears in both train and validation
     train, val = train_test_split(full, test_size=C.VAL_FRACTION, stratify=full.label,
@@ -138,6 +148,7 @@ class BirdDataset(Dataset):
     """Loads an image from disk and applies a transform. Returns (image tensor, label)."""
 
     def __init__(self, df, tf):
+        # keep plain Python lists: fast to index from the DataLoader worker processes
         self.paths = df.path.tolist()
         self.labels = df.label.tolist()
         self.tf = tf
@@ -146,6 +157,7 @@ class BirdDataset(Dataset):
         return len(self.paths)
 
     def __getitem__(self, i):
+        # images are read lazily, one at a time, so the whole dataset never has to fit in memory
         img = Image.open(self.paths[i]).convert("RGB")    # some JPEGs are greyscale
         return self.tf(img), self.labels[i]
 
@@ -154,6 +166,8 @@ def make_loader(df, img_size, batch_size, train, pin_memory=True, norm=(C.MEAN, 
     """Training loaders shuffle, augment and drop the last incomplete batch; eval loaders do none.
     norm = (mean, std) of the model being trained / evaluated; augment = training augmentation preset."""
     train_tf, eval_tf = make_transforms(img_size, *norm, augment=augment)
+    # shuffle: a new image order every epoch; drop_last: avoids a tiny last batch (bad for BatchNorm);
+    # num_workers: images are decoded in parallel processes; pin_memory: faster copies to the GPU
     return DataLoader(BirdDataset(df, train_tf if train else eval_tf),
                       batch_size=batch_size, shuffle=train, drop_last=train,
                       num_workers=C.NUM_WORKERS, pin_memory=pin_memory)

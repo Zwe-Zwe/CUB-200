@@ -83,6 +83,7 @@ def predict(img, model, tf, use_tta):
     return probs[0], (time.perf_counter() - t0) * 1000
 
 
+# Streamlit re-runs this whole script on every click; load_model() is cached, so the model loads only once
 model, tf, ckpt = load_model()
 names, metrics, size = ckpt["class_names"], ckpt.get("metrics", {}), ckpt["img_size"]
 n_params = sum(p.numel() for p in model.parameters()) / 1e6
@@ -104,7 +105,7 @@ with left:
     upload = st.file_uploader("Upload a bird photo", type=["jpg", "jpeg", "png", "webp"])
     labels = ["(none)"] + [p.stem.replace("_", " ") for p in EXAMPLES]
     choice = st.selectbox("...or pick an example test image (not used in training)", labels)
-    img = None
+    img = None                                       # an uploaded photo takes priority over the example list
     if upload is not None:
         img = Image.open(upload)
     elif choice != "(none)":

@@ -7,6 +7,7 @@ own learning rates and LR schedule; Config B uses two phases (224 px, then 448 p
 The *model* is chosen separately on the command line, so every configuration can be run with any model
 and each (model, config) pair is saved as its own run in outputs/runs/<model>__<config>/.
 """
+import os
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
@@ -19,7 +20,11 @@ TEST_TXT = ROOT / "test.txt"
 TRAIN_IMG_DIR = ROOT / "Train"                       # unzipped Train.zip
 TEST_IMG_DIR = ROOT / "Test"                         # unzipped Test.zip
 CONFIG_DIR = ROOT / "configs"
-OUTPUT_DIR = ROOT / "outputs"
+# BIRDCLS_OUTPUT_DIR redirects all outputs (runs, results, figures), e.g. for a full re-run of the ladder that must
+# not overwrite the original runs:  BIRDCLS_OUTPUT_DIR=outputs_rerun python -m birdcls.train ...
+OUTPUT_DIR = Path(os.environ.get("BIRDCLS_OUTPUT_DIR", ROOT / "outputs"))
+if not OUTPUT_DIR.is_absolute():
+    OUTPUT_DIR = ROOT / OUTPUT_DIR
 RUNS_DIR = OUTPUT_DIR / "runs"                       # one sub-folder per trained (model, config)
 FIGURES_DIR = OUTPUT_DIR / "figures"
 DEPLOY_DIR = ROOT / "hf_space"                       # Hugging Face Space files

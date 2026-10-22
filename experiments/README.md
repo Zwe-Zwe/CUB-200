@@ -38,6 +38,7 @@ Evidence base for the report. Two kinds of record:
 | [EXP-20](EXP-20_T2_L7_final_full_train.md) | 2026-10-17 | Track 2, L7 (final): L6 recipes retrained on train + val, test evaluated once | 2 | **ConvNeXt-Tiny 90.20% / 89.94%, ResNet-50 86.46% / 86.12%** (Top-1 / avg per class); +16.2 / +20.3 pp over L0 |
 | [EXP-21](EXP-21_T2_L8_architecture_specific.md) | prepared 2026-10-17 | Track 2, L8: architecture-specific tuning (ResNet-50: SGD LR sweep; ConvNeXt-Tiny: layer-wise LR decay) | 5 (user runs) | **Ties**: ResNet-50 SGD 1e-2 = AdamW (val p = 1.0, test 82.72 vs 82.97%); ConvNeXt-Tiny layer decay 0.65 = L6 (p = 0.61 / 0.74); architecture gap is not a recipe artefact |
 | [EXP-22](EXP-22_error_analysis_final_models.md) | 2026-10-20 | Error analysis of the two final models (worst classes, confusions, misclassified images, model overlap) | 0 | ConvNeXt Top-5 98.0%; ~half of errors within the same bird group; 75 vs 30 discordant images; both models find the same species hard (r = 0.67) |
+| [EXP-23](EXP-23_full_rerun_reproducibility.md) | 2026-10-21 | Full re-run of the Track 2 ladder (21 runs, both models) | 21 | **Bit-for-bit identical**: same val/test accuracy, best epoch and per-image test predictions in all 21 runs |
 
 ## Conventions
 

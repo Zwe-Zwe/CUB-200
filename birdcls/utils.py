@@ -21,6 +21,7 @@ def set_seed(seed=C.SEED):
 
 
 def get_device():
+    """Use the GPU when one is available; everything also runs (slowly) on the CPU."""
     return "cuda" if torch.cuda.is_available() else "cpu"
 
 
@@ -28,7 +29,7 @@ def gpu_memory_report():
     """Free / total GPU memory in GiB, e.g. to spot another process already using the GPU."""
     if not torch.cuda.is_available():
         return "no CUDA GPU"
-    free, total = torch.cuda.mem_get_info()
+    free, total = torch.cuda.mem_get_info()          # in bytes; 2**30 bytes = 1 GiB
     return f"{torch.cuda.get_device_name(0)}: {free / 2**30:.2f} GiB free of {total / 2**30:.2f} GiB"
 
 
@@ -66,8 +67,8 @@ def get_logger(name, log_file=None):
     """Logger that prints to the console and (optionally) appends to a log file."""
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
-    logger.handlers.clear()
-    logger.propagate = False
+    logger.handlers.clear()                       # avoid duplicate lines when a run is started twice
+    logger.propagate = False                      # do not also print through the root logger
     fmt = logging.Formatter("%(asctime)s  %(message)s", "%H:%M:%S")
     handlers = [logging.StreamHandler(sys.stdout)]
     if log_file is not None:
@@ -79,10 +80,12 @@ def get_logger(name, log_file=None):
 
 
 def save_json(obj, path):
+    """Write a dict (e.g. the training history) as readable JSON."""
     with open(path, "w") as f:
         json.dump(obj, f, indent=1)
 
 
 def load_json(path):
+    """Read a JSON file written by save_json."""
     with open(path) as f:
         return json.load(f)

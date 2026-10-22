@@ -46,3 +46,6 @@ src/
 *.mp4
 *.mkv
 *.mov
+
+# Submission zip (built from the repository)
+*_code.zip

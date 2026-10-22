@@ -23,25 +23,28 @@ from .models import build_model, normalization
 
 
 def main():
+    """Pick the run to export, bundle everything the web app needs into one file, optionally export ONNX."""
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--run", help="run name (default: best validation accuracy in outputs/results.csv)")
     ap.add_argument("--tta", action="store_true", help="enable TTA in the app (only with --run)")
     ap.add_argument("--onnx", action="store_true", help="also export model.onnx for the static web app")
     args = ap.parse_args()
 
-    if args.run:
+    if args.run:                                     # the run named on the command line (what we use)
         run, tta = args.run, args.tta
-    else:
+    else:                                            # otherwise the best run by VALIDATION accuracy
         results = pd.read_csv(C.OUTPUT_DIR / "results.csv", index_col="run")
         best = results.val_top1.idxmax()
         run, tta = best.replace(" +TTA", ""), bool(results.loc[best, "tta"])
         print(f"best by validation accuracy: {best} (val {results.loc[best, 'val_top1']:.4f}, "
               f"test {results.loc[best, 'test_top1']:.4f})")
 
-    ckpt = torch.load(C.run_dir(run) / "best.pt", map_location="cpu")
+    ckpt = torch.load(C.run_dir(run) / "best.pt", map_location="cpu")   # weights + training metadata
+    # the 200 species names in label order, so the app can show names instead of numbers
     full = read_annotations(C.TRAIN_TXT)
     class_names = class_names_from(full, int(full.label.max()) + 1)
 
+    # the input normalisation the model was trained with (the app must use exactly the same)
     mean, std = (ckpt["mean"], ckpt["std"]) if "mean" in ckpt else normalization(ckpt["model"])
 
     # test metrics of the exported variant, so the app can show them (empty if not evaluated yet)
@@ -53,6 +56,7 @@ def main():
         if label in results.index:
             metrics = {k: float(results.loc[label, k]) for k in ("test_top1", "test_avg_per_class")}
 
+    # One self-contained file: the app rebuilds the network from "model" and needs nothing else from this repo
     C.DEPLOY_DIR.mkdir(exist_ok=True)
     out = C.DEPLOY_DIR / "model.pt"
     torch.save({"model": ckpt["model"], "state_dict": ckpt["state_dict"], "class_names": class_names,

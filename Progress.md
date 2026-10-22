@@ -344,6 +344,12 @@ Final Track 2 figure: `outputs/figures/track2_ladder.png`. Total gain over the l
 
 ---
 
+## Full re-run of the ladder (2026-10-21, EXP-23)
+
+All 21 Track 2 runs retrained from scratch overnight (`scripts/rerun_ladder.sh`, outputs in `outputs_rerun/`):
+identical validation and test accuracy, best epochs and per-image test predictions in every run. Final models
+reproduce exactly (ConvNeXt-Tiny 90.20%, ResNet-50 86.46%).
+
 ## Error analysis of the final models (2026-10-20, EXP-22)
 
 ConvNeXt-Tiny final: Top-5 98.01%, 118 errors, 125 classes at 100%, worst class 25% (Chuck-will's-widow, n = 4).

@@ -23,12 +23,13 @@ def warmup_cosine(optimizer, total_steps, warmup_steps, schedule="cosine"):
     """LR multiplier: linear warm-up (protects the pretrained weights from the random head's large
     early gradients), then cosine decay to 0 (or a constant LR). Stepped once per optimiser update."""
     def factor(step):
+        # The scheduler multiplies every group's base LR by this factor at each update step
         if step < warmup_steps:
-            return (step + 1) / warmup_steps
+            return (step + 1) / warmup_steps          # warm-up: rises linearly from ~0 to 1
         if schedule == "constant":
             return 1.0
-        progress = (step - warmup_steps) / max(1, total_steps - warmup_steps)
-        return 0.5 * (1 + math.cos(math.pi * progress))
+        progress = (step - warmup_steps) / max(1, total_steps - warmup_steps)   # 0 -> 1 after the warm-up
+        return 0.5 * (1 + math.cos(math.pi * progress))  # cosine: falls smoothly from 1 to 0
     return torch.optim.lr_scheduler.LambdaLR(optimizer, factor)
 
 
@@ -39,15 +40,16 @@ def make_optimizer(cfg, backbone, head, lr_backbone, lr_head, depth_groups=None)
     new head. With layer-wise decay the TOP backbone level gets lr_backbone and each level below it gets
     `layer_decay` times the LR of the level above: early layers hold generic features (edges, textures) that should
     change least, later layers hold task-specific features that need to adapt most (ConvNeXt / BEiT fine-tuning)."""
-    groups = [{"params": head, "lr": lr_head}]
-    if not cfg.freeze_backbone:
+    groups = [{"params": head, "lr": lr_head}]       # the new output layer always trains, with the larger LR
+    if not cfg.freeze_backbone:                       # (a frozen backbone, the L0 baseline, gets no group at all)
         if depth_groups is None:
+            # discriminative fine-tuning: the whole pretrained backbone shares one smaller LR
             groups.insert(0, {"params": backbone, "lr": lr_backbone})
         else:
-            top = len(depth_groups) - 1
+            top = len(depth_groups) - 1                   # index of the level closest to the output
             groups = [{"params": ps, "lr": lr_backbone * cfg.layer_decay ** (top - d)}
                       for d, ps in enumerate(depth_groups)] + groups
-    if cfg.optimizer == "sgd":
+    if cfg.optimizer == "sgd":                        # only used for the ResNet-50 check at step L8
         return torch.optim.SGD(groups, momentum=cfg.momentum, weight_decay=cfg.weight_decay)
     return torch.optim.AdamW(groups, weight_decay=cfg.weight_decay)
 
@@ -60,15 +62,15 @@ def predict_probs(model, loader, device, tta=False, max_batches=None):
     tta=True (test-time augmentation) averages the probabilities of the image and its mirror image.
     """
     model.eval()                                   # disables dropout / stochastic depth
-    use_amp = device == "cuda"
+    use_amp = device == "cuda"                     # mixed precision (float16) on the GPU: faster, less memory
     all_p, all_y = [], []
     for i, (imgs, labels) in enumerate(loader):
         if max_batches is not None and i >= max_batches:
             break
         imgs = imgs.to(device, non_blocking=True)
         with torch.autocast(device_type=device, enabled=use_amp):
-            p = F.softmax(model(imgs).float(), dim=1)
-            if tta:
+            p = F.softmax(model(imgs).float(), dim=1)   # logits -> probabilities over the 200 classes
+            if tta:                                 # dims=[3] is the image width: a horizontal mirror
                 p = (p + F.softmax(model(torch.flip(imgs, dims=[3])).float(), dim=1)) / 2
         all_p.append(p.cpu())
         all_y.append(labels)
@@ -78,8 +80,8 @@ def predict_probs(model, loader, device, tta=False, max_batches=None):
 def evaluate(model, loader, device, tta=False, max_batches=None):
     """(cross-entropy loss, top-1 accuracy). The loss is plain CE (no label smoothing)."""
     probs, y = predict_probs(model, loader, device, tta, max_batches)
-    loss = F.nll_loss(torch.log(probs.clamp_min(1e-8)), y).item()
-    acc = (probs.argmax(1) == y).float().mean().item()
+    loss = F.nll_loss(torch.log(probs.clamp_min(1e-8)), y).item()   # cross-entropy from probabilities
+    acc = (probs.argmax(1) == y).float().mean().item()               # share of images whose top class is right
     return loss, acc
 
 
@@ -219,14 +221,15 @@ def fit(model, model_name, cfg, data, device, ckpt_path, logger, max_batches=Non
                                        for k, v in model.state_dict().items()}}
                 torch.save(best, ckpt_path)
                 bad_epochs = 0
-            else:
-                bad_epochs += 1
+            else:                                 # early stopping: give up after `patience` epochs in a row
+                bad_epochs += 1                   # without a new best validation accuracy
                 if bad_epochs >= cfg.patience:
                     logger.info(f"early stopping in phase {p_i}")
                     break
 
         model.load_state_dict(best["state_dict"])  # next phase (or the caller) gets the best weights
 
+    # Summary of the run, stored in history.json and used by the report scripts
     hist.update(model=model_name, config=cfg.name, best_epoch=best["epoch"],
                 best_val_acc=best["val_acc"], best_img_size=best["img_size"],
                 minutes=(time.time() - t0) / 60, full_train=full_train)

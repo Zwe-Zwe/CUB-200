@@ -34,6 +34,7 @@ from .utils import (get_device, get_logger, gpu_is_busy, gpu_memory_report, run_
 
 
 def parse_args():
+    """Command-line options. --model picks the network, --config one or more training recipes (YAML files)."""
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", required=True,
                     help='"convnext_tiny" (torchvision, ImageNet-1k) or a timm name such as '
@@ -51,28 +52,36 @@ def parse_args():
 
 
 def train_one(model_name, cfg_name, data, device, retrain=False, smoke=False, force=False, full_train=False):
-    cfg = C.load_config(cfg_name)
+    """Train one (model, config) pair, after safety checks.
+
+    Skips runs that are already finished (so a list of configs can be re-run safely after an interruption),
+    refuses to start if the GPU is already in use, and shortens everything for a --smoke test.
+    """
+    cfg = C.load_config(cfg_name)                    # read configs/<cfg_name>.yaml into an ExperimentConfig
+    # run name = <model>__<config>, plus a suffix for the final retraining or a smoke test
     name = C.run_name(model_name, cfg.name) + ("__full" if full_train else "") + ("__smoke" if smoke else "")
-    out = C.run_dir(name)
+    out = C.run_dir(name)                            # outputs/runs/<run name>/
     if C.is_complete(name) and not retrain and not smoke:
         print(f"[{name}] already complete, skipping (use --retrain to train again)")
         return
+    # A second process on the same 8 GB GPU makes both runs crash with "CUDA out of memory", so check first
     if device == "cuda" and gpu_is_busy() and not force:
         raise SystemExit(f"[{name}] not started: {gpu_memory_report()}. Another process (a second "
                          "training run or a notebook kernel) is using the GPU, and training would run "
                          "out of memory. Stop it first, or pass --force.")
-    if smoke:
-        shutil.rmtree(out, ignore_errors=True)
+    if smoke:                                        # 1 epoch per phase (and 4 batches, see _train) just to
+        shutil.rmtree(out, ignore_errors=True)       # check that the whole pipeline runs end to end
         for ph in cfg.phases:
             ph.epochs = 1
     out.mkdir(parents=True, exist_ok=True)
     if full_train:   # train on all of train.txt; the validation images become training images
         data = dataclasses.replace(data, train=data.full_train)
-    with run_lock(out / "train.lock"):
+    with run_lock(out / "train.lock"):               # stops two processes training the same run at once
         _train(model_name, cfg, name, out, data, device, smoke, full_train)
 
 
 def _train(model_name, cfg, name, out, data, device, smoke, full_train=False):
+    """Build the model, train it with engine.fit and save the history, curves and checkpoint."""
     (out / "history.json").unlink(missing_ok=True)   # the run only counts as complete when it finishes
 
     logger = get_logger(name, out / "train.log")
@@ -81,30 +90,34 @@ def _train(model_name, cfg, name, out, data, device, smoke, full_train=False):
     if full_train:
         logger.info(f"FULL-TRAIN: training on train + val = {len(data.train)} images; no validation, "
                     "no early stopping, final epoch kept")
+    # Save an exact copy of the settings next to the results, so every run documents itself
     with open(out / "config.yaml", "w") as f:
         yaml.safe_dump({"model": model_name, "full_train": full_train, **cfg.to_dict()}, f, sort_keys=False)
 
     set_seed()                                       # same initial head / data order for every run
+    # Pretrained backbone + a new 200-class output layer (dropout and stochastic depth come from the config)
     model = build_model(model_name, data.num_classes, pretrained=True,
                         dropout=cfg.dropout, drop_path=cfg.drop_path).to(device)
     logger.info(f"model {model_name}: {count_params(model):.1f} M parameters")
 
+    # The actual training loop (phases, learning-rate schedule, early stopping) lives in engine.fit
     hist = fit(model, model_name, cfg, data, device, out / "best.pt", logger,
                max_batches=4 if smoke else None, full_train=full_train)
     save_json(hist, out / "history.json")
     plot_history(hist, name, out / "curves.png")
     logger.info(f"saved to {out}")
-    del model
+    del model                                        # free GPU memory before the next config in the list
     if device == "cuda":
         torch.cuda.empty_cache()
 
 
 def main():
+    """Entry point: load the data once, then train the model with each requested config in turn."""
     args = parse_args()
     device = get_device()
     if device != "cuda":
         print("WARNING: no CUDA GPU found, training on CPU will be very slow")
-    data = load_data()
+    data = load_data()                               # train / validation / test split (see data.load_data)
     print(f"data: train {len(data.train)}, val {len(data.val)}, test {len(data.test)}, "
           f"classes {data.num_classes}")
     for cfg_name in args.config:

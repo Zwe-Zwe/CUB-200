@@ -74,3 +74,24 @@ add a little and doubles inference cost.
 - Results & Discussion, "misclassifications": `outputs/error_analysis/convnext_tiny__tl_L6_hires__full/misclassified_examples.png`
   + the table above (Top-5, errors within group, confidence).
 - Per-class histogram (`per_class_hist.png`) to show average-per-class ≈ Top-1 (no class collapses; minimum 25%).
+
+## Leakage check: duplicate images between Train and Test (2026-10-21)
+
+Exact file hashes (MD5) plus a 256-bit difference hash over all 4,829 train and 1,204 test images:
+**4 test images are byte-identical copies of training images** (0 further near-duplicates within 10/256 bits;
+2 more within 20 bits, visually different photos). All 4 have a **different label** in `test.txt` than their copy
+in `train.txt`:
+
+| Test file | Test label | Identical training image (its label) | Both final models predict |
+|---|---|---|---|
+| 0197.jpg | Purple Finch | American_Goldfinch_0013 | American Goldfinch |
+| 0273.jpg | American Goldfinch | Indigo_Bunting_0006 | Indigo Bunting |
+| 0918.jpg | Red-eyed Vireo | Tennessee_Warbler_0012 | Tennessee Warbler |
+| 0976.jpg | Cape May Warbler | Tennessee_Warbler_0020 | Tennessee Warbler |
+
+So the duplicates do **not** inflate the score; they are label conflicts that count as errors for both models (the
+models reproduce the training label). Without these 4 images: ConvNeXt-Tiny 90.50% (was 90.20%), ResNet-50 86.75%
+(was 86.46%). Reported numbers stay on the full official test set.
+
+Precision of the test estimate: 1,204 images, standard error sqrt(0.902 × 0.098 / 1204) = 0.86 pp, so the 95%
+interval for ConvNeXt-Tiny is about 88.5 to 91.9%.

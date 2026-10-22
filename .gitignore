@@ -41,3 +41,8 @@ outputs/runs/*__smoke/
 
 # Empty uv project template stub (not used)
 src/
+
+# Video recordings (too large for GitHub; the video goes on YouTube)
+*.mp4
+*.mkv
+*.mov

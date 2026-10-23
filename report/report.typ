@@ -2,7 +2,7 @@
 // Edit the values below before submitting.
 #let student-name = "Zwe Htet Zaw"
 #let student-id = "102783659"
-#let youtube = "https://youtu.be/-hWIFqhMIh4"
+#let youtube = "https://youtu.be/6dLfPSQ74Ck"
 
 #import "data/tables.typ": *
 #set document(title: "COS30082 Assignment 1: Bird Species Classification", author: student-name)
